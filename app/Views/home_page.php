@@ -101,7 +101,7 @@
   </section>
 
   <section>
-    <h2 style="text-align: center; color: rgb(226,122,55); font-weight: bold; margin-top: 20px; background-color: rgb(64,64,102); padding: 20px;">Featured Merch Items</h2>
+    <h2 style="text-align: center; color: rgb(226,122,55); font-weight: bold; background-color: rgb(64,64,102); padding: 20px;">Featured Merch Items</h2>
     
     <p class="featured-text">The Most Legit Bluey Collection</p>
 
