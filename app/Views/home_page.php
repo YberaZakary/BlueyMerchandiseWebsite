@@ -108,7 +108,7 @@
   </section>
 
   <section style="padding: 100px">
-    <div data-aos="zoom-in-up" data-aos-duration="1000" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+    <div data-aos="zoom-in-up" data-aos-duration="1000" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-card uk-card-hover uk-card-body" uk-grid>
       <div class="uk-card-media-left uk-cover-container">
       <img class="card-img" src="<?= base_url('assets/images/BlueyAbouts.png')?>" alt="Card image cap" style="padding: 50px; height: 100%; object-fit: fill;">
         <canvas width="600" height="40"></canvas>
