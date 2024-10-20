@@ -23,4 +23,9 @@ class Home extends BaseController
     {
         return view('contact_page');
     }
+
+    public function cart(): string
+    {
+        return view('cart_page');
+    }
 }
