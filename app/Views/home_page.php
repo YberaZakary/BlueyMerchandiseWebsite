@@ -88,6 +88,7 @@
           </div>
     </div>
   </div>
+
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
@@ -100,8 +101,10 @@
   </section>
 
   <section>
-    <h2 style="text-align: center; color: rgb(226,122,55); font-weight: bold; margin-top: 20px;">Featured Merch Items</h2>
+    <h2 style="text-align: center; color: rgb(226,122,55); font-weight: bold; margin-top: 20px; background-color: rgb(64,64,102); padding: 20px;">Featured Merch Items</h2>
+    
     <p class="featured-text">The Most Legit Bluey Collection</p>
+
     <div class="container1">
       <div class="featured-box zoom" data-aos="flip-right">
         <div style = "font-style:italic; font-weight: bold; color: rgb(64,64,102); text-align: center;">
@@ -166,19 +169,23 @@
     <hr style ="color: white" class ="solid">
   </section>
 
-  <footer>
-    <div class="container-fluid" >
+  <footer class="bg-dark text-light py-4">
+    <div class="container">
       <div class="row">
-        <div class="column">
-          <a class="navbar-brand" href="#"><img src="<?= base_url(relativePath: 'assets/images/logo.png')?>" class="image"></a>
+        <div class="col-md-4 text-center mb-3">
+          <a class="navbar-brand" href="#"><img src="<?= base_url('assets/images/logo.png')?>" class="image" style="width: 100px;"></a>
         </div>
-        <div class="column">
-          <p class="text-light">The Official Legit Bluey Store <br> est. 2024</p>
-          <p class="text-light">Recto, Manila, Philippines</p>
-          <p class="text-light">Follow Us! <br></p>
+        <div class="col-md-4 text-center mb-3">
+          <p>The Official Legit Bluey Store <br> est. 2024</p>
+          <p>Recto, Manila, Philippines</p>
+        </div>
+        <div class="col-md-4 text-center mb-3">
+          <p>Follow Us!</p>
+          <a href="#" class="text-light me-2"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-light me-2"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
         </div>
       </div>
-
     </div>
   </footer>
 
