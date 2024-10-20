@@ -249,7 +249,7 @@
   </section>
 
   <footer>
-    <div class="container-fluid" style="background-color: rgb(34, 34, 34);">
+    <div class="container-fluid">
       <div class="row">
         <div class="column">
           <a class="navbar-brand" href="#"><img src="beanbox.png" class="image"></a>

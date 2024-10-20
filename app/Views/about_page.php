@@ -35,7 +35,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('/catakog'); ?>" style="font-family: raleway;">Catalog</a>
+            <a class="nav-link" href="<?= base_url('/catalog'); ?>" style="font-family: raleway;">Catalog</a>
           </li>
 
           <li class="nav-item">
@@ -132,7 +132,7 @@ specialty coffee beverages and delectable snacks, Beanbox Recto established itse
   </section>
 
   <footer>
-    <div class="container-fluid" style="background-color: rgb(34, 34, 34);">
+    <div class="container-fluid">
       <div class="row">
         <div class="column">
           <a class="navbar-brand" href="#"><img src="beanbox.png" class="image"></a>
