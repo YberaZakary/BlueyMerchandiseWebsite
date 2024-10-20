@@ -59,44 +59,44 @@
   </nav>
 
   <section>
-    <div id="carouselExampleCaptions" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="<?= base_url(relativePath: 'assets/images/trio2.png')?>" class="slideshow d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
+  <div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+    <img src="<?= base_url(relativePath: 'assets/images/trio2.png')?>" class="slideshow d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
             <h5 style = "color : black">Welcome to the Bluey Store</h5>
             <p style = "color : black">this store is very official and legit!!</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="<?= base_url(relativePath: 'assets/images/trio.jpg')?>" class="slideshow d-block w-100" alt="...">
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+    <img src="<?= base_url(relativePath: 'assets/images/trio.jpg')?>" class="slideshow d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5 style = "color : rgb(237,204,111)">Shop now!</h5>
             <p style = "color : rgb(237,204,111)">scroll down to see the featured items available in our legit shop!</p>
           </div>
-        </div>
-        <div class="carousel-item">
-          <img src="<?= base_url(relativePath: 'assets/images/trio3.png')?>" class="slideshow d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+    <img src="<?= base_url(relativePath: 'assets/images/trio3.png')?>" class="slideshow d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5 style = "color : white">wow look at this wholesome family</h5>
             <p style = "color : white">this is what i wanted as a kid</p>
           </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
   </section>
 
   <section>
