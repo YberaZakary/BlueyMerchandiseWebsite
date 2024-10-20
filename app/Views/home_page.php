@@ -111,6 +111,12 @@
 </div>
   </section>
 
+  <section>
+    <div style = "margin-left: 50px; padding: 20px;">
+      <h1 style="font-family: dynapuff;">Welcome To The Bluey Store</h1>
+    </div>
+  </section>
+
   <section> 
     <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
       <div class="uk-card-media-left uk-cover-container">
@@ -124,14 +130,6 @@
           </div>
       </div>
   </div>
-  </section>
-
-
-  <section>
-    <div style = "margin-left: 50px; padding: 50px;">
-      <h1 style="font-family: dynapuff;">Welcome To The Bluey Store</h1>
-      <h5>Bluey is an Australian animated preschool television series which premiered on ABC Kids on 1 October 2018.</h5>
-    </div>
   </section>
 
   <section>
