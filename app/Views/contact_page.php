@@ -45,10 +45,13 @@
           <li class="nav-item">
             <a class="nav-link" href="<?= base_url('/contact'); ?>" style="font-family: raleway;" >Contact</a>
           </li>
-
         </ul>
       </div>
-
+      <div class="d-flex">
+        <a href="<?= base_url('/cart'); ?>" class="cart-icon">
+          <i class="bi bi-cart4" style="font-size: 30px; color: rgb(210,235,255);"></i>
+        </a>
+    </div>
   </div>
 
   </nav>
