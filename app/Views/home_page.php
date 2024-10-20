@@ -11,6 +11,10 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="<?= base_url('assets/css/maincss.css') ?>">
@@ -26,7 +30,7 @@
   <nav class="navbar navbar-expand-lg bg-body-tertiary" >
 
     <div class="container-fluid">
-      <a class="navbar-brand" href="<?= base_url('/'); ?>"><img src="<?= base_url(relativePath: 'assets/images/logo.png')?>" class="logo" style="width:100px; margin-left: 50px;" ></a>
+      <a class="navbar-brand" href="<?= base_url('/'); ?>"><img src="<?= base_url('assets/images/logo.png')?>" class="logo" style="width:100px; margin-left: 50px;" ></a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
         <span class="navbar-toggler-icon"></span>
@@ -67,21 +71,21 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
-    <img src="<?= base_url(relativePath: 'assets/images/trio2.png')?>" class="slideshow d-block w-100" alt="...">
+    <img src="<?= base_url('assets/images/trio2.png')?>" class="slideshow d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
             <h5 style = "color : black">Welcome to the Bluey Store</h5>
             <p style = "color : black">this store is very official and legit!!</p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-    <img src="<?= base_url(relativePath: 'assets/images/trio.jpg')?>" class="slideshow d-block w-100" alt="...">
+    <img src="<?= base_url('assets/images/trio.jpg')?>" class="slideshow d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5 style = "color : rgb(237,204,111)">Shop now!</h5>
             <p style = "color : rgb(237,204,111)">scroll down to see the featured items available in our legit shop!</p>
           </div>
     </div>
     <div class="carousel-item">
-    <img src="<?= base_url(relativePath: 'assets/images/trio3.png')?>" class="slideshow d-block w-100" alt="...">
+    <img src="<?= base_url('assets/images/trio3.png')?>" class="slideshow d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5 style = "color : white">wow look at this wholesome family</h5>
             <p style = "color : white">this is what i wanted as a kid</p>
@@ -101,15 +105,21 @@
   </section>
 
   <section>
+    <div style = "margin-left: 50px; padding: 50px;">
+      <h1 style="font-family: dynapuff;">Welcome To The Bluey Store</h1>
+      <h5>Bluey is an Australian animated preschool television series which premiered on ABC Kids on 1 October 2018.</h5>
+    </div>
+  </section>
+
+  <section>
     <h2 style="text-align: center; color: rgb(226,122,55); font-weight: bold; background-color: rgb(64,64,102); padding: 20px;">Featured Merch Items</h2>
-    
     <p class="featured-text">The Most Legit Bluey Collection</p>
 
     <div class="container1">
       <div class="featured-box zoom" data-aos="flip-right">
         <div style = "font-style:italic; font-weight: bold; color: rgb(64,64,102); text-align: center;">
           For Real Life?</div>
-        <img class="center" src = "<?= base_url(relativePath: 'assets/images/forreals.png')?>">
+        <img class="center" src = "<?= base_url('assets/images/forreals.png')?>">
         <div class="box-text">
           FOR REAL LIFE?! (Graphic Hoodie)
         </div>
@@ -117,7 +127,7 @@
       <div class="featured-box zoom" data-aos="flip-right">
         <div style = "font-style:italic; font-weight: bold; color: rgb(64,64,102); text-align: center;">
         Sleepy Time Tee</div>
-        <img class="center" src = "<?= base_url(relativePath: 'assets/images/sleepytime.png')?>">
+        <img class="center" src = "<?= base_url('assets/images/sleepytime.png')?>">
         <div class="box-text">
           Sleepy Time (Graphic Tee)
         </div>
@@ -125,7 +135,7 @@
       <div class="featured-box zoom" data-aos="flip-right">
         <div style = "font-style:italic; font-weight: bold; color: rgb(64,64,102); text-align: center;">
           The Sign Family Kids Hoodie</div>
-        <img class="center" src = "<?= base_url(relativePath: 'assets/images/familyhoodie.png')?>">
+        <img class="center" src = "<?= base_url('assets/images/familyhoodie.png')?>">
         <div class="box-text">
           The Sign Family Pic (Graphic Hoodie)
         </div>
@@ -136,7 +146,7 @@
       <div class="featured-box zoom" data-aos="flip-right">
         <div style = "font-style:italic; font-weight: bold; color: rgb(64,64,102); text-align: center;">
           Bluey Plush</div>
-        <img class="center" src = "<?= base_url(relativePath: 'assets/images/bluy.png')?>">
+        <img class="center" src = "<?= base_url('assets/images/bluy.png')?>">
         <div class="box-text">
           Main Character of the kid show: Bluey
         </div>
@@ -144,7 +154,7 @@
       <div class="featured-box zoom" data-aos="flip-right">
         <div style = "font-style:italic; font-weight: bold; color: rgb(64,64,102); text-align: center;">
         Bingo Plush</div>
-        <img class="center" src = "<?= base_url(relativePath: 'assets/images/mingo.png')?>">
+        <img class="center" src = "<?= base_url('assets/images/mingo.png')?>">
         <div class="box-text">
           Bluey's younger sibling, store's favorite character
         </div>
@@ -152,7 +162,7 @@
       <div class="featured-box zoom" data-aos="flip-right">
         <div style = "font-style:italic; font-weight: bold; color: rgb(64,64,102); text-align: center;">
           Muffin Plush</div>
-        <img class="center" src = "<?= base_url(relativePath: 'assets/images/muffin.jpg')?>">
+        <img class="center" src = "<?= base_url('assets/images/muffin.jpg')?>">
         <div class="box-text">
           Bluey and Bingo's cousin, another store favorite :)
         </div>
