@@ -66,22 +66,22 @@
   </nav>
 
   <section >
-    <div class="uk-background-cover d-flex flex-column align-items-center justify-content-center" data-src="<?= base_url('assets/images/neighborhood.png')?>" style="height: 700px; object-fit: fill;" uk-img>
-      <h1 style="font-family: DynaPuff; color:rgb(43, 44, 65); font-size: 70px; text-align:center; width: 100%;">Welcome to The Bluey Store!</h1>
+    <div class="uk-background-cover d-flex flex-column justify-content-center align-items-center" data-src="<?= base_url('assets/images/neighborhood.png')?>" style="height: 700px; object-fit: fill;" uk-img>
+      <h1 style="font-family: DynaPuff; font-size: 100px; color:rgb(43, 44, 65); text-shadow: 0px 3px 8px rgba(0, 0, 0, 0.432);">The Bluey Store</h1>
       <button class="viewmenu mt-3">
         <a href="<?= base_url('/catalog'); ?>" style="color: rgb(47, 62, 70);">Go To Catalog</a>
       </button>
     </div>
 
-    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid style="max-width: 80%; margin: auto;">
+    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2 uk-margin" uk-grid style="max-width: 80%; margin: auto;">
       <div class="uk-card-media-left uk-cover-container" style="padding: 50px;">
-      <img class="card-img" src="<?= base_url('assets/images/BlueyAbouts.png')?>" alt="Card image cap" style="height: 100%; object-fit: none;">
-      <canvas width="600" height="40"></canvas>
+        <img class="card-img" src="<?= base_url('assets/images/familypicAbout.png')?>" alt="Card image cap" style="height: 350px; object-fit: cover;">
+        <canvas width="600" height="1"></canvas>
       </div>
       <div>
         <div class="uk-card-body" style="padding: 50px; margin-top: 10px;">
-          <h1 style="font-family: DynaPuff; color:rgb(43, 44, 65);">What is Bluey all about?</h1>
-          <h3 style="font-family: DynaPuff; color:rgb(43, 44, 65); text-align: justify;">Bluey follows the adventures of a lovable & inexhaustible blue heeler puppy, who along with her sister Bingo, parents and friends is learning all about the world.</h3>
+          <h1 style="font-family: DynaPuff; color:rgb(43, 44, 65); text-align: center;">Welcome to Bluey Store!</h1>
+          <h2 style="font-family: DynaPuff; color:rgb(43, 44, 65); text-align: justify;">Bluey follows the adventures of a lovable & inexhaustible blue heeler puppy, who along with her sister Bingo, parents and friends is learning all about the world.</h2>
         </div>
       </div>
     </div>
@@ -98,21 +98,21 @@
     <div class="carousel-item active" data-bs-interval="10000">
     <img src="<?= base_url('assets/images/trio2.png')?>" class="slideshow d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-            <h5 style = "color : black">Welcome to the Bluey Store</h5>
-            <p style = "color : black">this store is very official and legit!!</p>
+            <h3 style = "color: black">Welcome to the Bluey Store</h3>
+            <p style = "color: black">this store is very official and legit!!</p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
     <img src="<?= base_url('assets/images/trio.jpg')?>" class="slideshow d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5 style = "color : rgb(237,204,111)">Shop now!</h5>
+            <h3 style = "color : rgb(237,204,111)">Shop now!</h3>
             <p style = "color : rgb(237,204,111)">scroll down to see the featured items available in our legit shop!</p>
           </div>
     </div>
     <div class="carousel-item">
     <img src="<?= base_url('assets/images/trio3.png')?>" class="slideshow d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5 style = "color : white">wow look at this wholesome family</h5>
+            <h3 style = "color : white">wow look at this wholesome family</h3>
             <p style = "color : white">this is what i wanted as a kid</p>
           </div>
     </div>
@@ -135,7 +135,7 @@
 
 
   <section>
-    <h2 style="text-align: center; color: rgb(226,122,55); font-weight: bold; background-color: rgb(64,64,102); padding: 20px;">Featured Merch Items</h2>
+    <h2 style="text-align: center; color: rgb(226,122,55); font-weight: bold; background-color: rgb(64,64,102); max-width:80%; margin: auto;">Featured Merch Items</h2>
     <p class="featured-text">The Most Legit Bluey Collection</p>
 
     <div class="container1">
