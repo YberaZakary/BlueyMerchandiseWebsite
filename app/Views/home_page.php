@@ -66,26 +66,29 @@
   </nav>
 
   <section >
-    <div data-aos="fade" data-aos-easing="linear" data-aos-duration="1500" class=" uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="<?= base_url('assets/images/neighborhood.png')?>" style="height: 700px; object-fit: fill;" uk-img>
-      <h1 style="font-family: DynaPuff; color:rgb(53, 79, 82); font-size: 70px;">Welcome to The Bluey Store!</h1>
+    <div class="uk-background-cover d-flex flex-column align-items-center justify-content-center" data-src="<?= base_url('assets/images/neighborhood.png')?>" style="height: 700px; object-fit: fill;" uk-img>
+      <h1 style="font-family: DynaPuff; color:rgb(43, 44, 65); font-size: 70px; text-align:center; width: 100%;">Welcome to The Bluey Store!</h1>
+      <button class="viewmenu mt-3">
+        <a href="<?= base_url('/catalog'); ?>" style="color: rgb(47, 62, 70);">Go To Catalog</a>
+      </button>
     </div>
 
-    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid style="max-width: 80%; margin: auto;">
       <div class="uk-card-media-left uk-cover-container" style="padding: 50px;">
-      <img class="card-img" src="<?= base_url('assets/images/BlueyAbouts.png')?>" alt="Card image cap" style="padding: 50px; height: 100%; object-fit: fill;">
-        <canvas width="600" height="40"></canvas>
+      <img class="card-img" src="<?= base_url('assets/images/BlueyAbouts.png')?>" alt="Card image cap" style="height: 100%; object-fit: none;">
+      <canvas width="600" height="40"></canvas>
       </div>
       <div>
-          <div class="uk-card-body" style="padding: 50px;">
-              <h1 style="font-family: DynaPuff;">What is Bluey all about?</h1>
-              <h3 style="font-family: DynaPuff; text-align: justify;">Bluey follows the adventures of a lovable & inexhaustible blue heeler puppy, who along with her sister Bingo, parents and friends is learning all about the world.</h3>
-          </div>
+        <div class="uk-card-body" style="padding: 50px; margin-top: 10px;">
+          <h1 style="font-family: DynaPuff; color:rgb(43, 44, 65);">What is Bluey all about?</h1>
+          <h3 style="font-family: DynaPuff; color:rgb(43, 44, 65); text-align: justify;">Bluey follows the adventures of a lovable & inexhaustible blue heeler puppy, who along with her sister Bingo, parents and friends is learning all about the world.</h3>
+        </div>
       </div>
     </div>
   </section>
 
   <section>
-  <div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" style="max-width: 80%; margin: auto;">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
