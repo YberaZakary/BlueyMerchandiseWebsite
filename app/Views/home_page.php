@@ -65,6 +65,25 @@
 
   </nav>
 
+  <section >
+    <div data-aos="fade" data-aos-easing="linear" data-aos-duration="1500" class=" uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="<?= base_url('assets/images/neighborhood.png')?>" style="height: 700px; object-fit: fill;" uk-img>
+      <h1 style="font-family: DynaPuff; color:rgb(53, 79, 82); font-size: 70px;">Welcome to The Bluey Store!</h1>
+    </div>
+
+    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+      <div class="uk-card-media-left uk-cover-container" style="padding: 50px;">
+      <img class="card-img" src="<?= base_url('assets/images/BlueyAbouts.png')?>" alt="Card image cap" style="padding: 50px; height: 100%; object-fit: fill;">
+        <canvas width="600" height="40"></canvas>
+      </div>
+      <div>
+          <div class="uk-card-body" style="padding: 50px;">
+              <h1 style="font-family: DynaPuff;">What is Bluey all about?</h1>
+              <h3 style="font-family: DynaPuff; text-align: justify;">Bluey follows the adventures of a lovable & inexhaustible blue heeler puppy, who along with her sister Bingo, parents and friends is learning all about the world.</h3>
+          </div>
+      </div>
+    </div>
+  </section>
+
   <section>
   <div id="carouselExampleDark" class="carousel carousel-dark slide">
   <div class="carousel-indicators">
@@ -107,20 +126,10 @@
 </div>
   </section>
 
-  <section style="padding: 100px">
-    <div data-aos="zoom-in-up" data-aos-duration="1000" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-card uk-card-hover uk-card-body" uk-grid>
-      <div class="uk-card-media-left uk-cover-container">
-      <img class="card-img" src="<?= base_url('assets/images/BlueyAbouts.png')?>" alt="Card image cap" style="padding: 50px; height: 100%; object-fit: fill;">
-        <canvas width="600" height="40"></canvas>
-      </div>
-      <div>
-          <div class="uk-card-body">
-              <h1 style="font-family: DynaPuff;">Welcome to The Bluey Store</h1>
-              <h3 style="font-family: DynaPuff; text-align: justify;">Bluey follows the adventures of a lovable & inexhaustible blue heeler puppy, who along with her sister Bingo, parents and friends is learning all about the world.</h3>
-          </div>
-      </div>
-    </div>
-  </section>
+  <!-- <section style="padding: 100px">
+
+  </section> -->
+
 
   <section>
     <h2 style="text-align: center; color: rgb(226,122,55); font-weight: bold; background-color: rgb(64,64,102); padding: 20px;">Featured Merch Items</h2>
