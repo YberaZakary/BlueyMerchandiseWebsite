@@ -13,6 +13,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
 
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit-icons.min.js"></script>
+
     <link rel="stylesheet" href="<?= base_url('assets/css/maincss.css') ?>">
     <script type="text/javascript"></script>
     <!-- STYLES -->
@@ -100,6 +107,22 @@
 </div>
   </section>
 
+  <section> 
+    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+      <div class="uk-card-media-left uk-cover-container">
+      <img class="card-img" src="<?= base_url('assets/images/BlueyAbouts.png')?>" alt="Card image cap" style="height: 100%; object-fit: cover;">
+          <canvas width="600" height="400"></canvas>
+      </div>
+      <div>
+          <div class="uk-card-body">
+              <h3 class="uk-card-title">Media Left</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+          </div>
+      </div>
+  </div>
+  </section>
+
+
   <section>
     <h2 style="text-align: center; color: rgb(226,122,55); font-weight: bold; background-color: rgb(64,64,102); padding: 20px;">Featured Merch Items</h2>
     
@@ -132,7 +155,7 @@
       </div>
     </div>
 
-    <div class="container1">
+    <div class="container1" style="padding: 20px;">
       <div class="featured-box zoom" data-aos="flip-right">
         <div style = "font-style:italic; font-weight: bold; color: rgb(64,64,102); text-align: center;">
           Bluey Plush</div>
@@ -164,6 +187,11 @@
       </a>
     </button>
   </section>
+  
+  <section>
+    <hr style ="color: white" class ="solid">
+  </section>
+
 
   <section>
     <hr style ="color: white" class ="solid">
