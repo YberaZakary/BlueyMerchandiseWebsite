@@ -111,25 +111,19 @@
 </div>
   </section>
 
-  <section>
-    <div style = "margin-left: 50px; padding: 20px;">
-      <h1 style="font-family: dynapuff;">Welcome To The Bluey Store</h1>
-    </div>
-  </section>
-
-  <section> 
-    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+  <section style="padding: 100px">
+    <div data-aos="zoom-in-up" data-aos-duration="1000" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
       <div class="uk-card-media-left uk-cover-container">
-      <img class="card-img" src="<?= base_url('assets/images/BlueyAbouts.png')?>" alt="Card image cap" style="height: 100%; object-fit: cover;">
-          <canvas width="600" height="400"></canvas>
+      <img class="card-img" src="<?= base_url('assets/images/BlueyAbouts.png')?>" alt="Card image cap" style="padding: 50px; height: 100%; object-fit: fill;">
+        <canvas width="600" height="40"></canvas>
       </div>
       <div>
           <div class="uk-card-body">
-              <h3 class="uk-card-title">Media Left</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+              <h1 style="font-family: DynaPuff;">Welcome to The Bluey Store</h1>
+              <h3 style="font-family: DynaPuff; text-align: justify;">Bluey follows the adventures of a lovable & inexhaustible blue heeler puppy, who along with her sister Bingo, parents and friends is learning all about the world.</h3>
           </div>
       </div>
-  </div>
+    </div>
   </section>
 
   <section>
