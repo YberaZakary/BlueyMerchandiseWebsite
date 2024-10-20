@@ -26,11 +26,7 @@
 
     <link rel="stylesheet" href="<?= base_url('assets/css/maincss.css') ?>">
     <script type="text/javascript"></script>
-    <!-- STYLES -->
 
-    <style {csp-style-nonce}>
-
-    </style>
 </head>
 <body>
 
