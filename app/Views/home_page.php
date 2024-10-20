@@ -69,7 +69,7 @@
 
   <section>
     <div class="uk-background-cover d-flex flex-column justify-content-center align-items-center" data-src="<?= base_url('assets/images/neighborhood.png')?>" style="height: 700px; object-fit: fill;" uk-img>
-      <h1 style="font-family: DynaPuff; font-size: 100px; color:rgb(43, 44, 65); text-shadow: 0px 3px 8px rgba(0, 0, 0, 0.432);">The Bluey Shop</h1>
+      <h1 style="font-family: DynaPuff; font-size: 100px; color:rgb(43, 44, 65); text-shadow: 2px 2px rgba(0, 0, 0, 0.432);">The Bluey Shop</h1>
       <button class="viewmenu mt-3">
         <a href="<?= base_url('/catalog'); ?>" style="color: rgb(47, 62, 70);">Go To Catalog</a>
       </button>
@@ -82,58 +82,21 @@
       </div>
       <div>
         <div class="uk-card-body" style="padding: 50px; margin-top: 10px;">
-          <h1 style="font-family: DynaPuff; color:rgb(43, 44, 65); text-align: center;">Welcome to Bluey Store!</h1>
-          <h2 style="font-family: DynaPuff; color:rgb(43, 44, 65); text-align: justify;">Bluey follows the adventures of a lovable & inexhaustible blue heeler puppy, who along with her sister Bingo, parents and friends is learning all about the world. Buy our legit merch!</h2>
+          <h1 style="font-family: DynaPuff; color:rgb(43, 44, 65); text-align: center; text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.432);">Welcome to Bluey Store!</h1>
+          <h2 style="font-family: DynaPuff; color:rgb(43, 44, 65); text-align: justify; ">Bluey follows the adventures of a lovable & inexhaustible blue heeler puppy, who along with her sister Bingo, parents and friends is learning all about the world. Buy our legit merch!</h2>
         </div>
       </div>
     </div>
   </section>
 
   <section>
-  <div id="carouselExampleDark" class="carousel carousel-dark slide" style="max-width: 80%; margin: auto;">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <div class="uk-background-cover d-flex flex-column justify-content-center align-items-center" data-src="<?= base_url('assets/images/trio2.png')?>" style="max-width: 50%; margin: auto; height: 600px; object-fit: fill;" uk-img></div>
   </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="10000">
-    <img src="<?= base_url('assets/images/trio2.png')?>" class="slideshow d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-            <h3 style = "color: black">Welcome to the Bluey Store</h3>
-            <p style = "color: black">this store is very official and legit!!</p>
-      </div>
-    </div>
-    <div class="carousel-item" data-bs-interval="2000">
-    <img src="<?= base_url('assets/images/trio.jpg')?>" class="slideshow d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h3 style = "color : rgb(237,204,111)">Shop now!</h3>
-            <p style = "color : rgb(237,204,111)">scroll down to see the featured items available in our legit shop!</p>
-          </div>
-    </div>
-    <div class="carousel-item">
-    <img src="<?= base_url('assets/images/trio3.png')?>" class="slideshow d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h3 style = "color : white">wow look at this wholesome family</h3>
-            <p style = "color : white">this is what i wanted as a kid</p>
-          </div>
-    </div>
-  </div>
-
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
   </section>
 
   <section>
-    <h2 style="text-align: center; color: rgb(226,122,55); font-weight: bold; background-color: rgb(64,64,102); max-width:80%; margin: auto; padding: 20px;">Featured Merch Items</h2>
-    <p class="featured-text" style="background-color: rgb(64,64,102); max-width:80%; margin: auto;">The Most Legit Bluey Collection</p>
+    <h1 style="font-family: DynaPuff; text-align: center; color: rgb(255, 255, 255); text-shadow: 0px 2px 2px rgba(0,0,0,0.432); font-size: 70px; font-weight: bold; max-width:80%; margin: auto; padding: 10px;">Featured Merch Items</h1>
+    <h2 class=" featured-text" style="font-family: DynaPuff; text-shadow: 0px 2px 2px rgba(0,0,0,0.432); max-width:80%; margin: auto; padding-bottom: 20px;">The Most Legit Bluey Collection</h2>
     <div class="uk-child-width-1-4@m" style="max-width: 80%; margin: auto;" uk-grid>
       <div data-aos="fade-right" data-aos-duration="4000"style="padding: 10px;">
       <div class="uk-card uk-card-default" style="border-radius: 10px;">
