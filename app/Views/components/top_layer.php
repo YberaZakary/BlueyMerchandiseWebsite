@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<header>
+<head>
     <meta charset="UTF-8">
     <title>Home</title>
     <meta name="description" content="The small framework with powerful features">
@@ -27,4 +27,4 @@
     <link rel="stylesheet" href="<?= base_url('assets/css/maincss.css') ?>">
     <script type="text/javascript"></script>
 
-</header>
+</head>

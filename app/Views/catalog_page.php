@@ -1,72 +1,13 @@
-<!DOCTYPE html>
-<html>
+<?php
 
-<head>
-    <title>Menu</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="maincss.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+use CodeIgniter\Database\BaseUtils;
+?>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="<?= base_url('assets/css/maincss.css') ?>">
-
-    </script>
-</head>
-
-    <style>
-
-    h1{
-        font-family: raleway;
-    }
-
-    </style>
-
-<body>
-
-  <nav class="navbar navbar-expand-lg bg-body-tertiary" >
-
-    <div class="container-fluid">
-    <a class="navbar-brand" href="<?= base_url('/'); ?>"><img src="<?= base_url(relativePath: 'assets/images/logo.png')?>" class="logo" style="width:100px; margin-left: 50px;" ></a>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="<?= base_url('/'); ?>" style="font-family: raleway;" >Home</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('/catalog'); ?>" style="font-family: raleway;">Catalog</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('/about'); ?>" style="font-family: raleway;" >About</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('/contact'); ?>" style="font-family: raleway;" >Contact</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="d-flex">
-        <a href="<?= base_url('/cart'); ?>" class="cart-icon">
-          <i class="bi bi-cart4" style="font-size: 30px; color: rgb(210,235,255);"></i>
-        </a>
-      </div>
-    </div>
-
-  </nav>
+<?= $this->extend('layout/main_layout') ?>
+<?= $this->section('title') ?>
+<title>Bluey</title>
+<?= $this->endSection('title') ?>
+<?= $this->section('content') ?>
 
 
   <div class="line"></div>
@@ -257,25 +198,7 @@
   <hr style ="color: white" class ="solid">
 </section>
 
-<footer>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="column">
-        <a class="navbar-brand" href="#"><img src="beanbox.png" class="image"></a>
-      </div>
-      <div class="column">
-        <p class="text-light">Beanbox MNL <br> est. 2016</p>
-        <p class="text-light">San Sebastian College, Manila, Philippines</p>
-        <p class="text-light">Follow Us! <br> <a href="https://www.facebook.com/BeanBoxMNL/" target="_blank" class="bi bi-facebook text-light"> facebook</a>
-          <a href="https://www.instagram.com/beanboxmnl/" target="_blank" class="bi bi-instagram text-light"> instagram</a></p>
-      </div>
-    </div>
+<?= $this->endSection('content') ?>
 
-  </div>
-</footer>
-
-</body>
-
-</html>
 
 
