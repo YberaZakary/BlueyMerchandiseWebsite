@@ -77,7 +77,7 @@
 
     <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2 uk-margin" uk-grid style="max-width: 80%; margin: auto;">
       <div class="uk-card-media-left uk-cover-container" style="padding: 50px;">
-        <img class="card-img" src="<?= base_url('assets/images/familypicAbout.png')?>" alt="Card image cap" style="height: 350px; object-fit: cover;">
+        <img class="card-img" src="<?= base_url('assets/images/blueyfamily.png')?>" alt="Card image cap" style="height: 350px; object-fit: cover;">
         <canvas width="600" height="1"></canvas>
       </div>
       <div>
