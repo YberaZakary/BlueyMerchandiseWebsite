@@ -100,146 +100,148 @@
   </section>
 
   <section>
-    <div style="background-color: rgb(255, 255, 255); border-radius: 20px; max-width: 80%; margin: auto;">
-      <h2 style="font-family: DynaPuff; text-shadow: 0px 2px 2px rgba(0,0,0,0.432); color: rgb(47, 55, 78); padding-inline: 30px; padding-top: 30px; text-align: left;">FEATURED TOY ITEMS</h2>
-        <div class="uk-slider-container-offset" style="margin: auto;" uk-slider>
-          <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
-            <div class="uk-slider-items uk-child-width-1-3@s uk-grid">
-                <div>
-                  <div data-aos="fade-right" data-aos-duration="1000"data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
-                    <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
-                    <img src="<?= base_url('assets/images/muffin.jpg')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
-                    </div>
-                    <div class="uk-card-body" style="background-color: rgb(47, 55, 78); border-radius: 0 0 10px 10px;">
-                    <h3 class="uk-card-title" style="color: white; font-size: 1rem;">Media Top</h3>
-                    <p style="color: white; font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
-                    <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
-                    <img src="<?= base_url('assets/images/mingo.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
-                    </div>
-                    <div class="uk-card-body" style="background-color: rgb(47, 55, 78); border-radius: 0 0 10px 10px;">
-                    <h3 class="uk-card-title" style="color: white; font-size: 1rem;">Media Top</h3>
-                    <p style="color: white; font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    <div class="uk-background-cover" data-src="<?= base_url('assets/images/footerbackground.png')?>" style="object-fit: fill;" uk-img>
+      <div style="background-color: rgba(255, 255, 255, 0.5);; border-radius: 20px; max-width: 80%; margin: auto;">
+        <h2 style="font-family: DynaPuff; text-shadow: 0px 2px 2px rgba(0,0,0,0.432); color: rgb(117, 85, 154); padding-inline: 30px; padding-top: 30px; text-align: left;">FEATURED TOY ITEMS</h2>
+          <div class="uk-slider-container-offset" style="margin: auto;" uk-slider>
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+              <div class="uk-slider-items uk-child-width-1-3@s uk-grid">
+                  <div>
+                    <div data-aos="fade-right" data-aos-duration="1000"data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
+                      <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
+                      <img src="<?= base_url('assets/images/muffin.jpg')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                      </div>
+                      <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px;">
+                      <h3 class="uk-card-title" style="color: white; font-size: 1rem;">Media Top</h3>
+                      <p style="color: white; font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div>
-                  <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
-                    <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
-                    <img src="<?= base_url('assets/images/bluy.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
-                    </div>
-                    <div class="uk-card-body" style="background-color: rgb(47, 55, 78); border-radius: 0 0 10px 10px;">
-                    <h3 class="uk-card-title" style="color: white; font-size: 1rem;">Media Top</h3>
-                    <p style="color: white; font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
-                    <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
-                    <img src="<?= base_url('assets/images/bluy.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
-                    </div>
-                    <div class="uk-card-body" style="background-color: rgb(47, 55, 78); border-radius: 0 0 10px 10px;">
-                    <h3 class="uk-card-title" style="color: white; font-size: 1rem;">Media Top</h3>
-                    <p style="color: white; font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  <div>
+                    <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
+                      <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
+                      <img src="<?= base_url('assets/images/mingo.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                      </div>
+                      <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px;">
+                      <h3 class="uk-card-title" style="color: white; font-size: 1rem;">Media Top</h3>
+                      <p style="color: white; font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div>
-                  <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
-                    <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
-                    <img src="<?= base_url('assets/images/bluy.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
-                    </div>
-                    <div class="uk-card-body" style="background-color: rgb(47, 55, 78); border-radius: 0 0 10px 10px;">
-                    <h3 class="uk-card-title" style="color: white; font-size: 1rem;">Media Top</h3>
-                    <p style="color: white; font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  <div>
+                    <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
+                      <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
+                      <img src="<?= base_url('assets/images/bluy.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                      </div>
+                      <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px;">
+                      <h3 class="uk-card-title" style="color: white; font-size: 1rem;">Media Top</h3>
+                      <p style="color: white; font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-            </div>
-          <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slider-item="previous"></a>
-          <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slider-item="next"></a>
+                  <div>
+                    <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
+                      <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
+                      <img src="<?= base_url('assets/images/bluy.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                      </div>
+                      <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px;">
+                      <h3 class="uk-card-title" style="color: white; font-size: 1rem;">Media Top</h3>
+                      <p style="color: white; font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
+                      <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
+                      <img src="<?= base_url('assets/images/bluy.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                      </div>
+                      <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px;">
+                      <h3 class="uk-card-title" style="color: white; font-size: 1rem;">Media Top</h3>
+                      <p style="color: white; font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slider-item="next"></a>
+          </div>
         </div>
-      </div>
 
-      <h2 style="font-family: DynaPuff; text-shadow: 0px 2px 2px rgba(0,0,0,0.432); color: rgb(47, 55, 78); padding-inline: 30px; text-align: left;">FEATURED APPAREL</h2>
-        <div class="uk-slider-container-offset" style="margin: auto;" uk-slider>
-          <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
-            <div class="uk-slider-items uk-child-width-1-3@s uk-grid">
-                <div>
-                  <div data-aos="fade-right" data-aos-duration="1000"data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="text-shadow: 0px 2px 2px rgba(0,0,0,0.432); border-radius: 10px;">
-                    <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
-                    <img src="<?= base_url('assets/images/muffin.jpg')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
-                    </div>
-                    <div class="uk-card-body" style="background-color: rgb(47, 55, 78); border-radius: 0 0 10px 10px;">
-                    <h3 class="uk-card-title" style="color: white; font-size: 1rem;">Media Top</h3>
-                    <p style="color: white; font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="text-shadow: 0px 2px 2px rgba(0,0,0,0.432); border-radius: 10px;">
-                    <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
-                    <img src="<?= base_url('assets/images/mingo.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
-                    </div>
-                    <div class="uk-card-body" style="background-color: rgb(47, 55, 78); border-radius: 0 0 10px 10px;">
-                    <h3 class="uk-card-title" style="color: white; font-size: 1rem;">Media Top</h3>
-                    <p style="color: white; font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        <h2 style="font-family: DynaPuff; text-shadow: 0px 2px 2px rgba(0,0,0,0.432); color: rgb(117, 85, 154); padding-inline: 30px; text-align: left;">FEATURED APPAREL</h2>
+          <div class="uk-slider-container-offset" style="margin: auto;" uk-slider>
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+              <div class="uk-slider-items uk-child-width-1-3@s uk-grid">
+                  <div>
+                    <div data-aos="fade-right" data-aos-duration="1000"data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="text-shadow: 0px 2px 2px rgba(0,0,0,0.432); border-radius: 10px;">
+                      <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
+                      <img src="<?= base_url('assets/images/muffin.jpg')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                      </div>
+                      <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px;">
+                      <h3 class="uk-card-title" style="color: white; font-size: 1rem;">Media Top</h3>
+                      <p style="color: white; font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div>
-                  <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="text-shadow: 0px 2px 2px rgba(0,0,0,0.432); border-radius: 10px;">
-                    <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
-                    <img src="<?= base_url('assets/images/bluy.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
-                    </div>
-                    <div class="uk-card-body" style="background-color: rgb(47, 55, 78); border-radius: 0 0 10px 10px;">
-                    <h3 class="uk-card-title" style="color: white; font-size: 1rem;">Media Top</h3>
-                    <p style="color: white; font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="text-shadow: 0px 2px 2px rgba(0,0,0,0.432); border-radius: 10px;">
-                    <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
-                    <img src="<?= base_url('assets/images/bluy.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
-                    </div>
-                    <div class="uk-card-body" style="background-color: rgb(47, 55, 78); border-radius: 0 0 10px 10px;">
-                    <h3 class="uk-card-title" style="color: white; font-size: 1rem;">Media Top</h3>
-                    <p style="color: white; font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  <div>
+                    <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="text-shadow: 0px 2px 2px rgba(0,0,0,0.432); border-radius: 10px;">
+                      <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
+                      <img src="<?= base_url('assets/images/mingo.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                      </div>
+                      <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px;">
+                      <h3 class="uk-card-title" style="color: white; font-size: 1rem;">Media Top</h3>
+                      <p style="color: white; font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div>
-                  <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="text-shadow: 0px 2px 2px rgba(0,0,0,0.432); border-radius: 10px;">
-                    <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
-                    <img src="<?= base_url('assets/images/bluy.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
-                    </div>
-                    <div class="uk-card-body" style="background-color: rgb(47, 55, 78); border-radius: 0 0 10px 10px;">
-                    <h3 class="uk-card-title" style="color: white; font-size: 1rem;">Media Top</h3>
-                    <p style="color: white; font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  <div>
+                    <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="text-shadow: 0px 2px 2px rgba(0,0,0,0.432); border-radius: 10px;">
+                      <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
+                      <img src="<?= base_url('assets/images/bluy.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                      </div>
+                      <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px;">
+                      <h3 class="uk-card-title" style="color: white; font-size: 1rem;">Media Top</h3>
+                      <p style="color: white; font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-            </div>
-          <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slider-item="previous"></a>
-          <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slider-item="next"></a>
+                  <div>
+                    <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="text-shadow: 0px 2px 2px rgba(0,0,0,0.432); border-radius: 10px;">
+                      <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
+                      <img src="<?= base_url('assets/images/bluy.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                      </div>
+                      <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px;">
+                      <h3 class="uk-card-title" style="color: white; font-size: 1rem;">Media Top</h3>
+                      <p style="color: white; font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="text-shadow: 0px 2px 2px rgba(0,0,0,0.432); border-radius: 10px;">
+                      <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
+                      <img src="<?= base_url('assets/images/bluy.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                      </div>
+                      <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px;">
+                      <h3 class="uk-card-title" style="color: white; font-size: 1rem;">Media Top</h3>
+                      <p style="color: white; font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slider-item="next"></a>
+          </div>
         </div>
+          <div style="padding-bottom: 50px;">
+            <button class="zoom viewmenu">
+              <a href="<?= base_url('/catalog'); ?>" style="color: rgb(47, 62, 70);">Go To Catalog</div>
+            </button>
+          </div>
       </div>
-        <div style="padding-bottom: 50px;">
-          <button class="zoom viewmenu">
-            <a href="<?= base_url('/catalog'); ?>" style="color: rgb(47, 62, 70);">Go To Catalog</>
-          </button>
-        </div>
     </div>
   </section>
 
   <section>
-    <hr style ="color: white" class ="solid">
+    <hr style ="color: rgb(117, 85, 154)" class ="solid">
   </section>
 
   <footer class="bg-dark text-light py-4">
