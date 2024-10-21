@@ -95,121 +95,72 @@
   </section>
 
   <section>
-    <h1 style="font-family: DynaPuff; text-align: center; color: rgb(255, 255, 255); text-shadow: 0px 2px 2px rgba(0,0,0,0.432); font-size: 70px; font-weight: bold; max-width:80%; margin: auto; padding: 10px;">Featured Merch Items</h1>
-    <h2 class=" featured-text" style="font-family: DynaPuff; text-shadow: 0px 2px 2px rgba(0,0,0,0.432); max-width:80%; margin: auto; padding-bottom: 20px;">The Most Legit Bluey Collection</h2>
-    <div class="uk-child-width-1-4@m" style="max-width: 80%; margin: auto;" uk-grid>
-      <div data-aos="fade-right" data-aos-duration="4000"style="padding: 10px;">
-      <div class="uk-card uk-card-default" style="border-radius: 10px;">
-        <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
-        <img src="<?= base_url('assets/images/muffin.jpg')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+    <h1 class="zoom" style=" font-family: DynaPuff; text-align: center; color: rgb(255, 255, 255); text-shadow: 0px 2px 2px rgba(0,0,0,0.432); font-size: 70px; font-weight: bold; max-width:80%; margin: auto; padding: 10px;">Featured Merch Items</h1>
+    <h2 class="zoom featured-text" style="font-family: DynaPuff; text-shadow: 0px 2px 2px rgba(0,0,0,0.432); max-width:80%; margin: auto; padding-bottom: 20px;">The Most Legit Bluey Collection</h2>
+      <div class="uk-slider-container-offset" style="max-width: 80%; margin: auto;" uk-slider>
+      <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+        <div class="uk-slider-items uk-child-width-1-4@s uk-grid">
+            <div>
+              <div data-aos="fade-right" data-aos-duration="1000"data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
+                <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
+                <img src="<?= base_url('assets/images/muffin.jpg')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                </div>
+                <div class="uk-card-body" style="padding: 10px; border-radius: 0 0 10px 10px;">
+                <h3 class="uk-card-title" style="font-size: 1rem;">Media Top</h3>
+                <p style="font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
+                <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
+                <img src="<?= base_url('assets/images/mingo.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                </div>
+                <div class="uk-card-body" style="padding: 10px; border-radius: 0 0 10px 10px;">
+                <h3 class="uk-card-title" style="font-size: 1rem;">Media Top</h3>
+                <p style="font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
+                <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
+                <img src="<?= base_url('assets/images/bluy.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                </div>
+                <div class="uk-card-body" style="padding: 10px; border-radius: 0 0 10px 10px;">
+                <h3 class="uk-card-title" style="font-size: 1rem;">Media Top</h3>
+                <p style="font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
+                <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
+                <img src="<?= base_url('assets/images/bluy.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                </div>
+                <div class="uk-card-body" style="padding: 10px; border-radius: 0 0 10px 10px;">
+                <h3 class="uk-card-title" style="font-size: 1rem;">Media Top</h3>
+                <p style="font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
+                <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
+                <img src="<?= base_url('assets/images/bluy.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                </div>
+                <div class="uk-card-body" style="padding: 10px; border-radius: 0 0 10px 10px;">
+                <h3 class="uk-card-title" style="font-size: 1rem;">Media Top</h3>
+                <p style="font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+              </div>
+            </div>
         </div>
-        <div class="uk-card-body" style="padding: 10px; border-radius: 0 0 10px 10px;">
-        <h3 class="uk-card-title" style="font-size: 1rem;">Media Top</h3>
-        <p style="font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-        </div>
-      </div>
-      </div>
-      <div data-aos="fade-right" data-aos-duration="1000"style="padding: 10px;">
-      <div class="uk-card uk-card-default" style="border-radius: 10px;">
-        <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
-        <img src="<?= base_url('assets/images/mingo.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
-        </div>
-        <div class="uk-card-body" style="padding: 10px; border-radius: 0 0 10px 10px;">
-        <h3 class="uk-card-title" style="font-size: 1rem;">Media Top</h3>
-        <p style="font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-        </div>
-      </div>
-      </div>
-      <div data-aos="fade-right" data-aos-duration="2000"style="padding: 10px;">
-      <div class="uk-card uk-card-default" style="border-radius: 10px;">
-        <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
-        <img src="<?= base_url('assets/images/bluy.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
-        </div>
-        <div class="uk-card-body" style="padding: 10px; border-radius: 0 0 10px 10px;">
-        <h3 class="uk-card-title" style="font-size: 1rem;">Media Top</h3>
-        <p style="font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-        </div>
-      </div>
-      </div>
-      <div data-aos="fade-right" data-aos-duration="3000"style="padding: 10px;">
-      <div class="uk-card uk-card-default" style="border-radius: 10px;">
-        <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
-        <img src="<?= base_url('assets/images/bluy.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
-        </div>
-        <div class="uk-card-body" style="padding: 10px; border-radius: 0 0 10px 10px;">
-        <h3 class="uk-card-title" style="font-size: 1rem;">Media Top</h3>
-        <p style="font-size: 0.875rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-        </div>
-      </div>
-      </div>
+      <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slider-item="previous"></a>
+      <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slider-item="next"></a>
+    </div>
     </div>
   </section>
-
-  <section>
-    <div class="container1">
-      <div class="featured-box zoom" data-aos="flip-right">
-        <div style = "font-style:italic; font-weight: bold; color: rgb(64,64,102); text-align: center;">
-          For Real Life?</div>
-        <img class="center" src = "<?= base_url('assets/images/forreals.png')?>">
-        <div class="box-text">
-          FOR REAL LIFE?! (Graphic Hoodie)
-        </div>
-      </div>
-      <div class="featured-box zoom" data-aos="flip-right">
-        <div style = "font-style:italic; font-weight: bold; color: rgb(64,64,102); text-align: center;">
-        Sleepy Time Tee</div>
-        <img class="center" src = "<?= base_url('assets/images/sleepytime.png')?>">
-        <div class="box-text">
-          Sleepy Time (Graphic Tee)
-        </div>
-      </div>
-      <div class="featured-box zoom" data-aos="flip-right">
-        <div style = "font-style:italic; font-weight: bold; color: rgb(64,64,102); text-align: center;">
-          The Sign Family Kids Hoodie</div>
-        <img class="center" src = "<?= base_url('assets/images/familyhoodie.png')?>">
-        <div class="box-text">
-          The Sign Family Pic (Graphic Hoodie)
-        </div>
-      </div>
-    </div>
-
-    <div class="container1" style="padding: 20px;">
-      <div class="featured-box zoom" data-aos="flip-right">
-        <div style = "font-style:italic; font-weight: bold; color: rgb(64,64,102); text-align: center;">
-          Bluey Plush</div>
-        <img class="center" src = "<?= base_url('assets/images/bluy.png')?>">
-        <div class="box-text">
-          Main Character of the kid show: Bluey
-        </div>
-      </div>
-      <div class="featured-box zoom" data-aos="flip-right">
-        <div style = "font-style:italic; font-weight: bold; color: rgb(64,64,102); text-align: center;">
-        Bingo Plush</div>
-        <img class="center" src = "<?= base_url('assets/images/mingo.png')?>">
-        <div class="box-text">
-          Bluey's younger sibling, store's favorite character
-        </div>
-      </div>
-      <div class="featured-box zoom" data-aos="flip-right">
-        <div style = "font-style:italic; font-weight: bold; color: rgb(64,64,102); text-align: center;">
-          Muffin Plush</div>
-        <img class="center" src = "<?= base_url('assets/images/muffin.jpg')?>">
-        <div class="box-text">
-          Bluey and Bingo's cousin, another store favorite :)
-        </div>
-      </div>
-    </div>
-    <button class="viewmenu">
-      <a href="<?= base_url('/menu'); ?>" style="color: rgb(47, 62, 70); text-decoration: none;">
-     Browse More
-      </a>
-    </button>
-  </section>
-  
-  <section>
-    <hr style ="color: white" class ="solid">
-  </section>
-
 
   <section>
     <hr style ="color: white" class ="solid">
