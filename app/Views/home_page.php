@@ -68,14 +68,14 @@
   </nav>
 
   <section>
-    <div class="uk-background-cover d-flex flex-column justify-content-center align-items-center" data-src="<?= base_url('assets/images/neighborhood.png')?>" style="height: 700px; object-fit: fill;" uk-img>
+    <div class="uk-background-cover d-flex flex-column justify-content-center align-items-center" data-src="<?= base_url('assets/images/headerimage.png')?>" style="height: 700px; object-fit: fill;" uk-img>
       <h1 style="font-family: DynaPuff; font-size: 100px; color:rgb(43, 44, 65); text-shadow: 2px 2px rgba(0, 0, 0, 0.432);">The Bluey Shop</h1>
       <button class="viewmenu mt-3">
         <a href="<?= base_url('/catalog'); ?>" style="color: rgb(47, 62, 70);">Go To Catalog</a>
       </button>
     </div>
 
-    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2 uk-margin" uk-grid style="max-width: 80%; margin: auto;">
+    <div data-aos="zoom-in" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2 uk-margin" uk-grid style="max-width: 80%; margin: auto;">
       <div class="uk-card-media-left uk-cover-container" style="padding: 50px;">
         <img class="card-img" src="<?= base_url('assets/images/blueyfamily.png')?>" alt="Card image cap" style="height: 350px; object-fit: cover;">
         <canvas width="600" height="1"></canvas>
