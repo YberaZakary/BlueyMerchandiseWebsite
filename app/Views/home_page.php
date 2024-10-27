@@ -25,8 +25,8 @@ use CodeIgniter\Database\BaseUtils;
       </div>
       <div>
         <div class="uk-card-body" style="padding: 50px; margin-top: 10px;">
-          <h1 style="font-family: DynaPuff; color:rgb(43, 44, 65); text-align: center; text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.432);">Welcome to Bluey Store!</h1>
-          <h2 style="font-family: DynaPuff; color:rgb(43, 44, 65); text-align: justify; ">Bluey follows the adventures of a lovable & inexhaustible blue heeler puppy, who along with her sister Bingo, parents and friends is learning all about the world. Buy our legit merch!</h2>
+          <h1 style="font-family: DynaPuff; color:rgb(43, 44, 65); font-weight: bold; text-align: center;">Welcome to Bluey Store!</h1>
+          <h2 style="font-family: Open Sans; color:rgb(43, 44, 65); text-align: justify; ">Bluey follows the adventures of a lovable & inexhaustible blue heeler puppy, who along with her sister Bingo, parents and friends is learning all about the world. Buy our legit merch!</h2>
         </div>
       </div>
     </div>
