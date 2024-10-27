@@ -132,7 +132,7 @@ use CodeIgniter\Database\BaseUtils;
                 </div>
             </div>
           </div>
-      <button class="zoom genbutton mt-3" onclick="window.location.href='<?= base_url('/catalog'); ?>'" style="color: rgb(47, 62, 70); text-decoration: none;">Go To Catalog</button>
+      <button class="zoom genbutton mt-3" onclick="window.location.href='<?= base_url('/catalog'); ?>'" style="color: rgb(47, 62, 70); text-decoration: none; margin: auto;">Go To Catalog</button>
       <hr style="height: 5px;">
     </div>
   </section>
