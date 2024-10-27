@@ -1,85 +1,35 @@
 <?= $this->extend('layout/main_layout') ?>
 <?= $this->section('title') ?>
-<title>Bluey</title>
+<title>About</title>
 <?= $this->endSection('title') ?>
 <?= $this->section('content') ?>
 
 
-  <div class="line"></div>
+<section>
+    <div class="uk-background-cover d-flex flex-column justify-content-start align-items-start" data-src="<?= base_url('assets/images/headerimage.png')?>" style="height: 700px; object-fit: fill; padding-left: 20px;" uk-img>
+      <h1 style="font-family: DynaPuff; font-size: 100px; color:rgb(43, 44, 65); text-shadow: 2px 2px rgba(0, 0, 0, 0.432); padding-left: 23%; padding-top: 20px;">About</h1>
+      <div class="uk-child-width-1-2@m" uk-grid>
 
-  <div class="about-header">
-    <p class="text-center" style="font-family: raleway;">ABOUT BEAN BOX</p>
-  </div>
+      </div>
 
-  <div class="line"></div>
-
-  <div class="about-container">
-    <div class="image1">
-      <img src="beanboxAbout.jpg" alt="aboutlogo" class="about-image img-fluid d-none d-md-block" data-aos="fade-right">
-  </div>
-    <p class="about-text text-lg-start text-sm-center mt-5 " data-aos="fade-right"> 
-      Beanbox Recto is a well-known coffee shop located in Recto Avenue, Manila, Philippines. It has gained popularity for its quality coffee and cozy ambiance. Here's a brief history of Beanbox Recto:
-
-Beanbox Recto was established around 2016 by Beng Pacaldo. The coffee shop started as a small, humble establishment with a mission to provide the local community with a welcoming space to enjoy specialty coffee and delicious snacks.
-
-From its inception, Beanbox Recto quickly became a favorite among students, professionals, and coffee enthusiasts in the area. Its prime location near universities and business centers contributed to its popularity, attracting a diverse clientele.
-    </p>
-  </div>
-
-  <section class="history">
-    <div class="container-fluid mt-5" style="background-color: rgb(34, 34, 34);">
-      <div class="row">
-        <div class="col">
-  <h2 class="text-center mt-5 text-light" data-aos="fade-right" style="font-family: raleway;">Brief History about Bean box</h2>
-  <br>
-  <div class="angels-container" data-aos="fade-left">
-    <p class="angels-text text-lg-start text-sm-center">
-
-Beanbox Recto is a renowned coffee shop located in Recto Avenue, Manila, Philippines. 
-Founded with a passion for quality coffee and a cozy environment, it quickly became a 
-favorite among students, professionals, and coffee enthusiasts. Offering a wide range of 
-specialty coffee beverages and delectable snacks, Beanbox Recto established itself as a social
- hub and a go-to destination for its loyal clientele. While expanding to other locations, the
-  original branch in Recto Avenue remained a beloved landmark, known for its exceptional customer 
-  service and commitment to providing a remarkable coffee experience. Today, Beanbox Recto continues 
-  to thrive, preserving its unique charm and serving as a gathering place in the heart of Recto Avenue.
-    </p>
-
-    <div>
-    <img src="beanboxfood.jpg" alt="angels" class="angels-image d-none d-md-block">
-    </div>
-  </div>
-  </div>
-</div>
-</div>
-</section>
-  <br>
-  <br>
-
-  <div class="container-fluid" style="background-color: rgb(34, 34, 34);">
-    <div class="row justify-content-center align-items-center">
-
-      <div class="col-lg-6" data-aos="fade-right">
-    <img src="beanbox3.jpg" alt="core" class="core-image img-fluid d-none d-md-block">
-    </div>
-
-    <div class="col-lg-5 text-light text-center" data-aos="fade-left">
-      <div >
-      <h3>Mission</h3>
-      <p class="py-2 mb-3">To satisfy the Filipino's appetite anytime and<br> anywhere one coffee, or two, at a time.</p>
-
-      <h3>Vision</h3>
-      <p>To become the coffee of choice<br> for all Filipinos.</p>
+    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid style="margin: auto;">
+      <div class="uk-card-media-left uk-cover-container">
+        <iframe src="https://www.youtube-nocookie.com/embed/ZrR9ML0sxEE?autoplay=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" width="100%" height="100%" allowfullscreen uk-responsive uk-video="automute: true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        <canvas width="700" height="450"></canvas>
+      </div>
+      <div>
+        <div class="uk-card-body">
+          <h3 class="uk-card-title"> 
+            <img class="card-img" src="<?= base_url('assets/images/blueybook.png')?>" alt="Card image cap" style="width: 50%; height: auto; object-fit: cover;">
+          </h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        </div>
       </div>
     </div>
-  </div>
-  </div>
-  </div>
+</div>
 
-  <br>
+    
 
-  <section>
-    <hr style ="color: white" class ="solid">
   </section>
 
   <?= $this->endSection('content') ?>

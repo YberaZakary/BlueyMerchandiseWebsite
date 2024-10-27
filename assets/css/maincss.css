@@ -16,6 +16,10 @@ a{
   margin: 0;
 }
 
+.navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
 .nav-link{
   color: rgb(210,235,255);
   font-size: 20px;
