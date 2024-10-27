@@ -19,8 +19,8 @@
           <h3 class="uk-card-title" style="font-family: DynaPuff; color:rgb(43, 44, 65); text-align: justify; "><img class="card-img" src="<?= base_url('assets/images/BingoToy.png')?>" alt="Card image cap" style="width: 10%; height: 10%; object-fit: cover;">We Offer High quality products!</h3>
           <p style="font-family: DynaPuff; color:rgb(43, 44, 65); text-align: justify; ">We specialize in creating top-tier Bluey products that bring smiles to children and families alike. Our products are crafted with utmost care, using only the finest materials and advanced techniques. This ensures their safety, durability, and ability to withstand countless hours of imaginative play.
           Beyond entertainment, our products are designed to stimulate learning and development, making playtime a valuable experience.
-          We are committed to providing exceptional value and service to our customers. 
-          Our diverse range of products caters to various preferences and occasions, making it easy to find the perfect Bluey gift. 
+          We are committed to providing exceptional value and service to our customers.
+          Our diverse range of products caters to various preferences and occasions, making it easy to find the perfect Bluey gift.
           We believe in going the extra mile, offering free shipping on orders exceeding a certain amount to enhance your shopping experience.</p>
         </div>
       </div>
@@ -37,7 +37,6 @@
             <div class="uk-position-center uk-position-small uk-text-center">
                 <img class="card-img" src="<?= base_url('assets/images/BingoToy.png')?>" alt="Card image cap" style="width: 10%; height: auto;">
                 <h2 uk-slideshow-parallax="x: 100,-100" style="background-color: rgba(0, 0, 0, 0.5); padding: 10px;">Mission  <p uk-slideshow-parallax="x: 200,-200" style="padding: 10px; color: white;">Lorem ipsum dolor sit amet.</p></h2>
-               
             </div>
         </div>
         <div>
