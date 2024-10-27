@@ -7,10 +7,7 @@
 
 <section>
     <div class="uk-background-cover d-flex flex-column justify-content-start align-items-start" data-src="<?= base_url('assets/images/headerimage.png')?>" style="height: 700px; object-fit: fill; padding-left: 20px;" uk-img>
-      <h1 style="font-family: DynaPuff; font-size: 100px; color:rgb(43, 44, 65); text-shadow: 2px 2px rgba(0, 0, 0, 0.432); padding-left: 23%; padding-top: 20px;">About</h1>
-      <div class="uk-child-width-1-2@m" uk-grid>
-
-      </div>
+      <h1 style="font-family: DynaPuff; font-size: 100px; color:rgb(43, 44, 65); text-shadow: 2px 2px rgba(0, 0, 0, 0.432); padding-left: 16%; padding-top: 20px;">About</h1>
 
     <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid style="margin: auto;">
       <div class="uk-card-media-left uk-cover-container">
@@ -19,10 +16,12 @@
       </div>
       <div>
         <div class="uk-card-body">
-          <h3 class="uk-card-title"> 
-            <img class="card-img" src="<?= base_url('assets/images/blueybook.png')?>" alt="Card image cap" style="width: 50%; height: auto; object-fit: cover;">
-          </h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+          <h3 class="uk-card-title" style="font-family: DynaPuff; color:rgb(43, 44, 65); text-align: justify; "><img class="card-img" src="<?= base_url('assets/images/BingoToy.png')?>" alt="Card image cap" style="width: 10%; height: 10%; object-fit: cover;">We Offer High quality products!</h3>
+          <p style="font-family: DynaPuff; color:rgb(43, 44, 65); text-align: justify; ">We specialize in creating top-tier Bluey products that bring smiles to children and families alike. Our products are crafted with utmost care, using only the finest materials and advanced techniques. This ensures their safety, durability, and ability to withstand countless hours of imaginative play.
+             Beyond entertainment, our products are designed to stimulate learning and development, making playtime a valuable experience.
+              We are committed to providing exceptional value and service to our customers. 
+              Our diverse range of products caters to various preferences and occasions, making it easy to find the perfect Bluey gift. 
+              We believe in going the extra mile, offering free shipping on orders exceeding a certain amount to enhance your shopping experience.</p>
         </div>
       </div>
     </div>
