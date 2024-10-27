@@ -12,13 +12,13 @@ use CodeIgniter\Database\BaseUtils;
 
   <section>
     <div class="uk-background-cover d-flex flex-column justify-content-center align-items-center" data-src="<?= base_url('assets/images/headerimage.png')?>" style="height: 700px; object-fit: fill;" uk-img>
-      <h1 style="font-family: DynaPuff; font-size: 100px; color:rgb(43, 44, 65); text-shadow: 2px 2px rgba(0, 0, 0, 0.432);">The Bluey Shop</h1>
+      <h1 style="font-family: DynaPuff; font-size: 100px; font-weight: bold; color:rgb(43, 44, 65); text-shadow: 2px 2px rgba(0, 0, 0, 0.432);">The Bluey Shop</h1>
       <a href="<?= base_url('/catalog'); ?>" style="color: rgb(47, 62, 70); text-decoration: none;">
         <button class="zoom genbutton mt-3">Go To Catalog</button>
       </a>
     </div>
 
-    <div data-aos="zoom-in" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2 uk-margin" uk-grid style="max-width: 80%; margin: auto;">
+    <div data-aos="zoom-in" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2 uk-margin" uk-grid style="max-width: 60%; margin: auto;">
       <div class="uk-card-media-left uk-cover-container" style="padding: 50px;">
         <img class="card-img" src="<?= base_url('assets/images/blueyfamily.png')?>" alt="Card image cap" style="height: 350px; object-fit: cover;">
         <canvas width="600" height="1"></canvas>
@@ -44,12 +44,12 @@ use CodeIgniter\Database\BaseUtils;
 
   <section>
     <div class="uk-background-cover" data-src="<?= base_url('assets/images/footerbackground.png')?>" style="object-fit: fill; padding-bottom: 10%;" uk-img>
-      <div style="background-color: rgba(255, 255, 255, 0.5); border-radius: 20px; max-width: 70%; margin: auto;">
+      <div style="background-color: rgba(255, 255, 255, 0.5); border-radius: 20px; max-width: 60%; margin: auto;">
         <h2 style="font-family: DynaPuff; text-shadow: 0px 2px 2px rgba(0,0,0,0.432); font-weight: bold; color: rgb(117, 85, 154); padding-top: 20px; text-align: center;">TOY ITEMS</h2>
           <hr style="border: 1px solid rgb(117, 85, 154); margin-inline: 30px;">
           <div class="uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid style="max-width: 90%; margin: auto;">
             <div>
-                <div class="uk-card uk-card-body">
+                <div class="zoom uk-card uk-card-body">
                   <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
                     <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
                       <img src="<?= base_url('assets/images/muffin.jpg')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
@@ -62,7 +62,7 @@ use CodeIgniter\Database\BaseUtils;
               </div>
             </div>
             <div>
-                <div class="uk-card uk-card-body">
+                <div class="zoom uk-card uk-card-body">
                   <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
                     <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
                       <img src="<?= base_url('assets/images/mingo.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
@@ -75,7 +75,7 @@ use CodeIgniter\Database\BaseUtils;
                 </div>
             </div>
             <div>
-                <div class="uk-card uk-card-body">
+                <div class="zoom uk-card uk-card-body">
                   <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
                     <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
                       <img src="<?= base_url('assets/images/bluy.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
@@ -93,7 +93,7 @@ use CodeIgniter\Database\BaseUtils;
         <hr style="border: 1px solid rgb(117, 85, 154); margin-inline: 30px;">
         <div class="uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid style="max-width: 90%; margin: auto;">
             <div>
-                <div class="uk-card uk-card-body">
+                <div class="zoom uk-card uk-card-body">
                   <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
                     <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
                       <img src="<?= base_url('assets/images/muffin.jpg')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
@@ -106,7 +106,7 @@ use CodeIgniter\Database\BaseUtils;
               </div>
             </div>
             <div>
-                <div class="uk-card uk-card-body">
+                <div class="zoom uk-card uk-card-body">
                   <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
                     <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
                       <img src="<?= base_url('assets/images/mingo.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
@@ -119,7 +119,7 @@ use CodeIgniter\Database\BaseUtils;
                 </div>
             </div>
             <div>
-                <div class="uk-card uk-card-body">
+                <div class="zoom uk-card uk-card-body">
                   <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
                     <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
                       <img src="<?= base_url('assets/images/bluy.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
