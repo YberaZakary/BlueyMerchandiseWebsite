@@ -52,7 +52,7 @@ use CodeIgniter\Database\BaseUtils;
                   <div>
                     <div data-aos="fade-right" data-aos-duration="1000"data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
                       <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
-                      <img src="<?= base_url('assets/images/muffin.jpg')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                      <img src="<?= base_url('assets/images/muffin.jpg')?>" style="width: 80%; height: 100px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
                       </div>
                       <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px;">
                       <h3 class="uk-card-title" style="color: white; font-size: 1rem;">Media Top</h3>
@@ -174,12 +174,8 @@ use CodeIgniter\Database\BaseUtils;
             <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slider-item="next"></a>
           </div>
         </div>
-          <div style="padding-bottom: 50px;">
-          <a href="<?= base_url('/catalog'); ?>" style="color: rgb(47, 62, 70); text-decoration: none;">
-            <button class="zoom viewcatalog mt-3">Go To Catalog</button>
-          </a>
-          </div>
       </div>
+      <button class="zoom viewcatalog mt-3" onclick="window.location.href='<?= base_url('/catalog'); ?>'" style="color: rgb(47, 62, 70); text-decoration: none;">Go To Catalog</button>
     </div>
   </section>
 
