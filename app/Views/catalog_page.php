@@ -11,7 +11,7 @@ use CodeIgniter\Database\BaseUtils;
 
 <section>
   <div class="uk-background-cover" data-src="<?= base_url('assets/images/Markets.jpg')?>" style="object-fit: fill; padding-bottom: 10%;" uk-img>
-    <div style="max-width: 80%; margin: auto;">
+    <div style="padding-block: 10%; max-width: 80%; margin: auto;">
       <div uk-filter="target: .js-filter">
         <ul class="uk-subnav uk-subnav-pill">
             <li class="uk-active" uk-filter-control><a href="#">All</a></li>

@@ -29,13 +29,13 @@
         </ul>
       </div>
 
-      <div class="d-flex">
-        <a class="nav-link" href="<?= base_url('/contact'); ?> class="cart-icon">
+      <div class="d-flex" style="padding-inline: 10px;">
+        <a class="nav-link" href="<?= base_url('/contact'); ?>" class="cart-icon">
           <i class="bi bi-cart4" style="font-size: 30px; color: rgb(210,235,255);"></i>
         </a>
-    </div>
+      </div>
 
-    <div class="d-flex">
+    <div class="d-flex" style="padding-inline: 5px;">
       <a href="<?= base_url('/login'); ?>" class="login-text" style="font-family: raleway; text-decoration: none; color: rgb(210,235,255); font-size: 20px; margin-right: 20px;">
       Login/Signup
       </a>
