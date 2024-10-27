@@ -35,4 +35,10 @@
         </a>
     </div>
 
+    <div class="d-flex">
+      <a href="<?= base_url('/login'); ?>" class="login-text" style="font-family: raleway; text-decoration: none; color: rgb(210,235,255); font-size: 20px; margin-right: 20px;">
+      Login/Signup
+      </a>
+    </div>
+
   </nav>
