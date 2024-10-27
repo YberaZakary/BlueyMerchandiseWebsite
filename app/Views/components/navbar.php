@@ -36,9 +36,9 @@
     </div>
 
     <div class="d-flex">
-        <a href="<?= base_url('/cart'); ?>" class="cart-icon">
-          <i class="bi bi-cart4" style="font-size: 30px; color: rgb(210,235,255);"></i>
-        </a>
+      <a href="<?= base_url('/login'); ?>" class="login-text" style="font-family: raleway; text-decoration: none; color: rgb(210,235,255); font-size: 20px; margin-right: 20px;">
+      Login/Signup
+      </a>
     </div>
 
   </nav>
