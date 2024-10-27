@@ -4,6 +4,9 @@ body{
     background-color: rgb(194, 227, 254);
 }
 
+a{
+    text-decoration: none;
+}
 .container-fluid{
     background-color: rgb(43,44,65);
 }
@@ -109,7 +112,7 @@ img {
   transform: scale(1.05);
 }
 
-.viewmenu {
+.viewcatalog {
   border: none;
   font-size: 15px;
   font-weight: bold;

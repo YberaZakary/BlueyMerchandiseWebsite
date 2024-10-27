@@ -12,19 +12,19 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="<?= base_url('/'); ?>" style="font-family: raleway;" >Home</a>
+            <a class="nav-link" aria-current="page" href="<?= base_url('/'); ?>" style="font-family: raleway; text-decoration: none;" >Home</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('/catalog'); ?>" style="font-family: raleway;">Catalog</a>
+            <a class="nav-link" href="<?= base_url('/catalog'); ?>" style="font-family: raleway; text-decoration: none;">Catalog</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('/about'); ?>" style="font-family: raleway;" >About</a>
+            <a class="nav-link" href="<?= base_url('/about'); ?>" style="font-family: raleway; text-decoration: none;" >About</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('/contact'); ?>" style="font-family: raleway;" >Contact</a>
+            <a class="nav-link" href="<?= base_url('/contact'); ?>" style="font-family: raleway; text-decoration: none;" >Contact</a>
           </li>
         </ul>
       </div>

@@ -13,9 +13,9 @@ use CodeIgniter\Database\BaseUtils;
   <section>
     <div class="uk-background-cover d-flex flex-column justify-content-center align-items-center" data-src="<?= base_url('assets/images/headerimage.png')?>" style="height: 700px; object-fit: fill;" uk-img>
       <h1 style="font-family: DynaPuff; font-size: 100px; color:rgb(43, 44, 65); text-shadow: 2px 2px rgba(0, 0, 0, 0.432);">The Bluey Shop</h1>
-      <button class="viewmenu mt-3">
-        <a href="<?= base_url('/catalog'); ?>" style="color: rgb(47, 62, 70);">Go To Catalog</a>
-      </button>
+      <a href="<?= base_url('/catalog'); ?>" style="color: rgb(47, 62, 70); text-decoration: none;">
+        <button class="zoom viewcatalog mt-3">Go To Catalog</button>
+      </a>
     </div>
 
     <div data-aos="zoom-in" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2 uk-margin" uk-grid style="max-width: 80%; margin: auto;">
@@ -175,14 +175,12 @@ use CodeIgniter\Database\BaseUtils;
           </div>
         </div>
           <div style="padding-bottom: 50px;">
-            <button class="zoom viewmenu">
-              <a href="<?= base_url('/catalog'); ?>" style="color: rgb(47, 62, 70);">Go To Catalog</div>
-            </button>
+          <a href="<?= base_url('/catalog'); ?>" style="color: rgb(47, 62, 70); text-decoration: none;">
+            <button class="zoom viewcatalog mt-3">Go To Catalog</button>
+          </a>
           </div>
       </div>
     </div>
   </section>
-
-  
 
   <?= $this->endSection('content') ?>
