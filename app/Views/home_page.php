@@ -33,19 +33,39 @@ use CodeIgniter\Database\BaseUtils;
   </section>
 
   <section>
-    <div class="uk-background-cover d-flex flex-column justify-content-end align-items-center" data-src="<?= base_url('assets/images/trio1.png')?>" style="max-width: 50%; margin: auto; height: 600px; object-fit: fill;" uk-img>
-      <div>
-        <a href="<?= base_url('/catalog')?>">
-            <img src="<?= base_url(relativePath:'assets/images/Shop.png')?>">
-          </a>
-        <a href="<?= base_url(relativePath:'/')?>">
-            <img src="<?= base_url(relativePath:'assets/images/DuckCake.png')?>">
+    <div class="d-flex justify-content-around" style="max-width: 55%; margin: auto; padding-block: 8% 3%;">
+      <div class="card" style="width: 20rem; position: relative; overflow: visible;">
+        <a href="<?= base_url('/catalog')?>" style="text-decoration: none;">
+          <img class="zoom card-img-top" src="<?= base_url('assets/images/Shop.png')?>" style="position: absolute; top: -100px;">
         </a>
-        <a href="<?= base_url(relativePath:'/about')?>">
-          <img src="<?= base_url(relativePath:'assets/images/About.png')?>">
+        <div class="card-body" style="padding-top: 20%;">
+          <h5 class="card-title" style="font-family: DynaPuff; font-weight:bold; font-size: 20px; color:rgb(43, 44, 65); text-align: center;">Shop Now</h5>
+          <p class="card-text" style="font-family: Open Sans; text-align: center;">Discover the latest Bluey merch and bring home your favorite characters today!</p>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem; position: relative; overflow: visible;">
+        <a href="<?= base_url('/')?>" style="text-decoration: none;">
+          <img class="zoom card-img-top" src="<?= base_url('assets/images/DuckCake.png')?>" style="position: absolute; top: -100px;">
         </a>
+        <div class="card-body" style="padding-top: 20%;">
+          <h5 class="card-title" style="font-family: DynaPuff; font-weight:bold; font-size: 20px; color:rgb(43, 44, 65); text-align: center;">Join the Pack</h5>
+          <p class="card-text" style="font-family: Open Sans; text-align: center;">Become a member to unlock exclusive discounts, early access to new merch, and special offers just for Bluey fans!</p>
+        </div>
+      </div>
+        <div class="card" style="width: 20rem; position: relative; overflow: visible;">
+        <a href="<?= base_url('/about')?>" style="text-decoration: none;">
+          <img class="zoom card-img-top" src="<?= base_url('assets/images/About.png')?>" style="position: absolute; top: -100px;">
+        </a>
+        <div class="card-body" style="padding-top: 20%;">
+          <h5 class="card-title" style="font-family: DynaPuff; font-weight:bold; font-size: 20px; color:rgb(43, 44, 65); text-align: center;">More about Us</h5>
+        <p class="card-text" style="font-family: Open Sans; text-align: center;">Learn more about our mission to bring joy to Bluey fans with high-quality, official merch made with love!</p>
+        </div>
       </div>
     </div>
+  </section>
+
+  <section>
+    <div class="uk-background-cover d-flex flex-column justify-content-end align-items-center" data-src="<?= base_url('assets/images/trio1.png')?>" style="max-width: 50%; margin: auto; height: 600px; object-fit: fill;" uk-img></div>
   </section>
 
   <section>
