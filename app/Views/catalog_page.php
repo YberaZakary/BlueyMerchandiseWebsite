@@ -10,7 +10,7 @@ use CodeIgniter\Database\BaseUtils;
 <?= $this->section('content') ?>
 
 <section>
-  <div class="uk-background-cover" data-src="<?= base_url('assets/images/Markets.jpg')?>" style="object-fit: fill; padding-bottom: 10%;" uk-img>
+  <div class="uk-background-cover" data-src="<?= base_url('assets/images/Markets.jpg')?>" style="object-fit: contain; padding-bottom: 10%;" uk-img>
     <div style="padding-block: 50px; max-width: 60%; margin: auto;">
       <h1 style="font-family: DynaPuff; font-size: 90px; font-weight: bold; color: rgb(210,235,255); text-shadow: 2px 2px rgba(0, 0, 0, 0.432); padding-block: 10px;">Browse Our Catalog</h1>
       <button class="zoom genbutton mt-3" onclick="window.location.href='<?= base_url('/'); ?>'" style="color: rgb(47, 62, 70); text-decoration: none;">Go Back</button>

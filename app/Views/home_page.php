@@ -34,7 +34,7 @@ use CodeIgniter\Database\BaseUtils;
 
   <section>
     <div class="d-flex justify-content-around" style="max-width: 55%; margin: auto; padding-block: 8% 3%;">
-      <div class="card" style="width: 20rem; position: relative; overflow: visible;">
+      <div class="card" style="width: 20rem; position: relative; overflow: visible; border-radius: 10px;">
         <a href="<?= base_url('/catalog')?>" style="text-decoration: none;">
           <img class="zoom card-img-top" src="<?= base_url('assets/images/Shop.png')?>" style="position: absolute; top: -100px;">
         </a>
@@ -43,7 +43,7 @@ use CodeIgniter\Database\BaseUtils;
           <p class="card-text" style="font-family: Open Sans; text-align: center;">Discover the latest Bluey merch and bring home your favorite characters today!</p>
         </div>
       </div>
-      <div class="card" style="width: 20rem; position: relative; overflow: visible;">
+      <div class="card" style="width: 20rem; position: relative; overflow: visible; border-radius: 10px;">
         <a href="<?= base_url('/')?>" style="text-decoration: none;">
           <img class="zoom card-img-top" src="<?= base_url('assets/images/DuckCake.png')?>" style="position: absolute; top: -100px;">
         </a>
@@ -52,7 +52,7 @@ use CodeIgniter\Database\BaseUtils;
           <p class="card-text" style="font-family: Open Sans; text-align: center;">Become a member to unlock exclusive discounts, early access to new merch, and special offers just for Bluey fans!</p>
         </div>
       </div>
-        <div class="card" style="width: 20rem; position: relative; overflow: visible;">
+        <div class="card" style="width: 20rem; position: relative; overflow: visible; border-radius: 10px;">
         <a href="<?= base_url('/about')?>" style="text-decoration: none;">
           <img class="zoom card-img-top" src="<?= base_url('assets/images/About.png')?>" style="position: absolute; top: -100px;">
         </a>
@@ -69,23 +69,21 @@ use CodeIgniter\Database\BaseUtils;
   </section>
 
   <section>
-    <h1 class="zoom" style=" font-family: DynaPuff; text-align: center; color: rgb(255, 255, 255); text-shadow: 0px 2px 2px rgba(0,0,0,0.432); font-size: 70px; font-weight: bold; max-width:80%; margin: auto;">Featured Merch Items</h1>
+    <h1 class="zoom" style=" font-family: DynaPuff; text-align: center; color: rgb(255, 255, 255); text-shadow: 0px 2px 2px rgba(0,0,0,0.432); font-size: 70px; font-weight: bold; max-width:80%; margin: auto;">Featured Products</h1>
     <h3 class="zoom featured-text" style="font-family: DynaPuff; text-shadow: 0px 2px 2px rgba(0,0,0,0.432); max-width:80%; margin: auto; padding-bottom: 50px;">The Most Legit Bluey Collection</h3>
   </section>
 
   <section>
     <div class="uk-background-cover" data-src="<?= base_url('assets/images/footerbackground.png')?>" style="object-fit: fill; padding-bottom: 10%;" uk-img>
       <div style="background-color: rgba(255, 255, 255, 0.5); border-radius: 20px; max-width: 60%; margin: auto;">
-        <h2 style="font-family: DynaPuff; text-shadow: 0px 2px 2px rgba(0,0,0,0.432); font-weight: bold; color: rgb(117, 85, 154); padding-top: 20px; text-align: center;">TOY ITEMS</h2>
-          <hr style="border: 1px solid rgb(117, 85, 154); margin-inline: 30px;">
-          <div class="uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid style="max-width: 90%; margin: auto;">
+          <div class="uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid style="max-width: 90%; margin: auto; padding-top: 3%;">
             <div>
                 <div class="zoom uk-card uk-card-body">
                   <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
                     <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
-                      <img src="<?= base_url('assets/images/muffin.jpg')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                      <img src="<?= base_url('assets/images/BABGrannyJanet.png')?>" style="width: 100%; height: 200px; object-fit: contain; border-radius: 10px 10px 0 0;" alt="">
                     </div>
-                    <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px; height: 200px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+                    <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px; height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
                     <h3 class="uk-card-title" style="color: white; font-size: 1rem; margin: 0;">Media Top</h3>
                     <p style="color: white; font-size: 0.875rem; margin: 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                   </div>
@@ -96,9 +94,9 @@ use CodeIgniter\Database\BaseUtils;
                 <div class="zoom uk-card uk-card-body">
                   <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
                     <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
-                      <img src="<?= base_url('assets/images/mingo.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                      <img src="<?= base_url('assets/images/BAFrlife.png')?>" style="width: 100%; height: 200px; object-fit: contain; border-radius: 10px 10px 0 0;" alt="">
                     </div>
-                    <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px; height: 200px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+                    <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px; height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
                     <h3 class="uk-card-title" style="color: white; font-size: 1rem; margin: 0;">Media Top</h3>
                     <p style="color: white; font-size: 0.875rem; margin: 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                     </div>
@@ -109,9 +107,9 @@ use CodeIgniter\Database\BaseUtils;
                 <div class="zoom uk-card uk-card-body">
                   <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
                     <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
-                      <img src="<?= base_url('assets/images/bluy.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                      <img src="<?= base_url('assets/images/BFFamily.png')?>" style="width: 100%; height: 200px; object-fit: contain; border-radius: 10px 10px 0 0;" alt="">
                     </div>
-                    <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px; height: 200px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+                    <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px; height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
                       <h3 class="uk-card-title" style="color: white; font-size: 1rem; margin: 0;">Media Top</h3>
                       <p style="color: white; font-size: 0.875rem; margin: 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                     </div>
@@ -120,16 +118,14 @@ use CodeIgniter\Database\BaseUtils;
             </div>
           </div>
 
-        <h2 style="font-family: DynaPuff; text-shadow: 0px 2px 2px rgba(0,0,0,0.432); font-weight: bold; color: rgb(117, 85, 154); text-align: center;">APPAREL</h2>
-        <hr style="border: 1px solid rgb(117, 85, 154); margin-inline: 30px;">
         <div class="uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid style="max-width: 90%; margin: auto;">
             <div>
                 <div class="zoom uk-card uk-card-body">
                   <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
                     <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
-                      <img src="<?= base_url('assets/images/muffin.jpg')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                      <img src="<?= base_url('assets/images/BABGrannyRita.png')?>" style="width: 100%; height: 200px; object-fit: contain; border-radius: 10px 10px 0 0;" alt="">
                     </div>
-                    <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px; height: 200px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+                    <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px; height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
                     <h3 class="uk-card-title" style="color: white; font-size: 1rem; margin: 0;">Media Top</h3>
                     <p style="color: white; font-size: 0.875rem; margin: 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                   </div>
@@ -140,9 +136,9 @@ use CodeIgniter\Database\BaseUtils;
                 <div class="zoom uk-card uk-card-body">
                   <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
                     <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
-                      <img src="<?= base_url('assets/images/mingo.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                      <img src="<?= base_url('assets/images/BAPajamas.png')?>" style="width: 100%; height: 200px; object-fit: contain; border-radius: 10px 10px 0 0;" alt="">
                     </div>
-                    <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px; height: 200px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+                    <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px; height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
                     <h3 class="uk-card-title" style="color: white; font-size: 1rem; margin: 0;">Media Top</h3>
                     <p style="color: white; font-size: 0.875rem; margin: 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                     </div>
@@ -153,16 +149,16 @@ use CodeIgniter\Database\BaseUtils;
                 <div class="zoom uk-card uk-card-body">
                   <div data-aos="fade-right" data-aos-duration="1000" class="uk-card uk-card-default" style="border-radius: 10px;">
                     <div class="uk-card-media-top" style="border-radius: 10px 10px 0 0;">
-                      <img src="<?= base_url('assets/images/bluy.png')?>" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                      <img src="<?= base_url('assets/images/BFChefs.png')?>" style="width: 100%; height: 200px; object-fit: contain; border-radius: 10px 10px 0 0;" alt="">
                     </div>
-                    <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px; height: 200px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+                    <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px; height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
                       <h3 class="uk-card-title" style="color: white; font-size: 1rem; margin: 0;">Media Top</h3>
                       <p style="color: white; font-size: 0.875rem; margin: 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                     </div>
                   </div>
                 </div>
             </div>
-          </div>
+        </div>
       <button class="zoom genbutton mt-3" onclick="window.location.href='<?= base_url('/catalog'); ?>'" style="color: rgb(47, 62, 70); text-decoration: none; margin: auto;">Go To Catalog</button>
       <hr style="height: 5px;">
     </div>
