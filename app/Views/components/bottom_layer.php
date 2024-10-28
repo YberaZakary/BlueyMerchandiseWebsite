@@ -10,9 +10,9 @@
         </div>
         <div class="col-md-4 text-center mb-3">
           <p>Follow Us!</p>
-          <a href="#" class="text-light me-2"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="text-light me-2"><i class="bi bi-twitter"></i></a>
-          <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com/OfficialBlueyTV" class="text-light me-2"><i class="bi bi-facebook"></i></a>
+          <a href="https://x.com/OfficialBlueyTV?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="text-light me-2"><i class="bi bi-twitter"></i></a>
+          <a href="https://www.instagram.com/officialblueytv/?hl=en" class="text-light"><i class="bi bi-instagram"></i></a>
         </div>
       </div>
     </div>
