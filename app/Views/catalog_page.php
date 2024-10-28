@@ -5,7 +5,7 @@ use CodeIgniter\Database\BaseUtils;
 
 <?= $this->extend('layout/main_layout') ?>
 <?= $this->section('title') ?>
-<title>Bluey</title>
+<title>The Bluey Shop - Catalog</title>
 <?= $this->endSection('title') ?>
 <?= $this->section('content') ?>
 
@@ -125,11 +125,12 @@ use CodeIgniter\Database\BaseUtils;
   </div>
 </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 <?= $this->endSection('content') ?>
 
 

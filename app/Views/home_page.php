@@ -5,7 +5,7 @@ use CodeIgniter\Database\BaseUtils;
 
 <?= $this->extend('layout/main_layout') ?>
 <?= $this->section('title') ?>
-<title>Bluey</title>
+<title>The Bluey Shop - Home</title>
 <?= $this->endSection('title') ?>
 <?= $this->section('content') ?>
 
@@ -33,8 +33,19 @@ use CodeIgniter\Database\BaseUtils;
   </section>
 
   <section>
-  <div class="uk-background-cover d-flex flex-column justify-content-center align-items-center" data-src="<?= base_url('assets/images/trio1.png')?>" style="max-width: 50%; margin: auto; height: 600px; object-fit: fill;" uk-img></div>
-  </div>
+    <div class="uk-background-cover d-flex flex-column justify-content-end align-items-center" data-src="<?= base_url('assets/images/trio1.png')?>" style="max-width: 50%; margin: auto; height: 600px; object-fit: fill;" uk-img>
+      <div>
+        <a href="<?= base_url('/catalog')?>">
+            <img src="<?= base_url(relativePath:'assets/images/Shop.png')?>">
+          </a>
+        <a href="<?= base_url(relativePath:'/')?>">
+            <img src="<?= base_url(relativePath:'assets/images/DuckCake.png')?>">
+        </a>
+        <a href="<?= base_url(relativePath:'/about')?>">
+          <img src="<?= base_url(relativePath:'assets/images/About.png')?>">
+        </a>
+      </div>
+    </div>
   </section>
 
   <section>
