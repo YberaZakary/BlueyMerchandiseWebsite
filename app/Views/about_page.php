@@ -36,21 +36,30 @@
         <img class="card-img" src="<?= base_url('assets/images/RoomBluey.jpg')?>" alt="Card image cap">
             <div class="uk-position-center uk-position-small uk-text-center">
                 <img class="card-img" src="<?= base_url('assets/images/BingoToy.png')?>" alt="Card image cap" style="width: 10%; height: auto;">
-                <h2 uk-slideshow-parallax="x: 100,-100" style="background-color: rgba(0, 0, 0, 0.5); padding: 10px;">Mission  <p uk-slideshow-parallax="x: 200,-200" style="padding: 10px; color: white;">Lorem ipsum dolor sit amet.</p></h2>
+                <h2 uk-slideshow-parallax="x: 100,-100" style="background-color: rgba(0, 0, 0, 0.5); padding: 10px; font-family: DynaPuff;">Mission  
+                    <p uk-slideshow-parallax="x: 200,-200" style="padding: 10px; color: white; font-family: DynaPuff; font-size: 14px;">To design and produce exceptional Bluey merchandise that reflects the show's values and inspires creativity, imagination, and family bonding.</p>
+                </h2>
             </div>
         </div>
+
         <div>
-        <img class="card-img" src="<?= base_url('assets/images/BlueyAbouts.png')?>" alt="Card image cap">
+        <img class="card-img" src="<?= base_url('assets/images/Vision.png')?>" alt="Card image cap">
             <div class="uk-position-center uk-position-small uk-text-center">
-            <h2 uk-slideshow-parallax="x: 100,-100" style="background-color: rgba(0, 0, 0, 0.5); padding: 10px;">Vision</h2>
-            <p uk-slideshow-parallax="x: 200,-200" style="background-color: rgba(0, 0, 0, 0.5); padding: 10px; color: white;">Lorem ipsum dolor sit amet.</p>
+            <img class="card-img" src="<?= base_url('assets/images/BlueyToyHold.png')?>" alt="Card image cap" style="width: 25%; height: auto;">
+            <h2 uk-slideshow-parallax="x: 100,-100" style="background-color: rgba(0, 0, 0, 0.5); padding: 10px; font-family: DynaPuff;">Vision
+              <p uk-slideshow-parallax="x: 200,-200" style="padding: 10px; color: white; font-family: DynaPuff; font-size: 14px;">Create high-quality Bluey merchandise that captures the show's warmth, humor, and Australian charm, bringing joy and imaginative play to fans of all ages.</p>
+            </h2>
+            
             </div>
         </div>
+
         <div>
-        <img class="card-img" src="<?= base_url('assets/images/BlueyAbouts.png')?>" alt="Card image cap">
+        <img class="card-img" src="<?= base_url('assets/images/Motto.jpg')?>" alt="Card image cap">
             <div class="uk-position-center uk-position-small uk-text-center">
-            <h2 uk-slideshow-parallax="x: 100,-100" style="background-color: rgba(0, 0, 0, 0.5); padding: 10px;">Motto</h2>
-            <p uk-slideshow-parallax="x: 200,-200" style="background-color: rgba(0, 0, 0, 0.5); padding: 10px; color: white;">Lorem ipsum dolor sit amet.</p>
+            <img class="card-img" src="<?= base_url('assets/images/MuffinTu.png')?>" alt="Card image cap" style="width: 25%; height: auto;">
+            <h2 uk-slideshow-parallax="x: 100,-100" style="background-color: rgba(0, 0, 0, 0.5); padding: 10px; font-family: DynaPuff;">Motto
+            <p uk-slideshow-parallax="x: 200,-200" style="padding: 10px; color: white; font-family: DynaPuff; font-size: 14px;">"Quality Craftsmanship, Endless Fun, and Bringing the Magic of Bluey to Life."</p>
+            </h2>
             </div>
         </div>
     </div>
