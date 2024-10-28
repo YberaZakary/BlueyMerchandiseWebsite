@@ -1,6 +1,6 @@
 <?= $this->extend('layout/main_layout') ?>
 <?= $this->section('title') ?>
-<title>About</title>
+<title>The Bluey Shop - About</title>
 <?= $this->endSection('title') ?>
 <?= $this->section('content') ?>
 

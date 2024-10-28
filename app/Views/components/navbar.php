@@ -30,7 +30,7 @@
       </div>
 
       <div class="d-flex" style="padding-inline: 10px;">
-        <a class="nav-link" href="<?= base_url('/contact'); ?>" class="cart-icon">
+        <a class="nav-link cart-icon" href="<?= base_url('/cart'); ?>">
           <i class="bi bi-cart4" style="font-size: 30px; color: rgb(210,235,255);"></i>
         </a>
       </div>
