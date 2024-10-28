@@ -46,10 +46,41 @@ use CodeIgniter\Database\BaseUtils;
                 <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
             </div>
+          </li><li data-color="black">
+            <div class="zoom uk-card uk-background-cover uk-inline" data-src="<?= base_url(relativePath: 'assets/images/Kindy.jpg')?>" style="object-fit: fill; border-radius: 10px;" uk-img>
+                <img src="<?= base_url('assets/images/BFBeachDay.png')?>" style="width: 100%; height: 350px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                <div class="uk-overlay uk-dark uk-position-bottom">
+                <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+          </li>
+          <li data-color="black">
+            <div class="zoom uk-card uk-background-cover uk-inline" data-src="<?= base_url(relativePath: 'assets/images/Kindy.jpg')?>" style="object-fit: fill; border-radius: 10px;" uk-img>
+                <img src="<?= base_url('assets/images/BFFishing.png')?>" style="width: 100%; height: 350px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                <div class="uk-overlay uk-dark uk-position-bottom">
+                <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
           </li>
           <li data-color="white">
             <div class="zoom uk-card uk-background-cover uk-inline" data-src="<?= base_url(relativePath: 'assets/images/Hallway.png')?>" style="object-fit: fill; border-radius: 10px;" uk-img>
                 <img src="<?= base_url('assets/images/BABMuffin.png')?>" style="width: 100%; height: 350px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                <div class="uk-overlay uk-dark uk-position-bottom">
+                <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+          </li>
+          <li data-color="blue">
+            <div class="zoom uk-card uk-background-cover uk-inline" data-src="<?= base_url(relativePath: 'assets/images/WeddingBackground.png')?>" style="object-fit: fill; border-radius: 10px;" uk-img>
+                <img src="<?= base_url('assets/images/BASleepyTime.png')?>" style="width: 100%; height: 350px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                <div class="uk-overlay uk-dark uk-position-bottom">
+                <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+          </li>
+          <li data-color="blue">
+            <div class="zoom uk-card uk-background-cover uk-inline" data-src="<?= base_url(relativePath: 'assets/images/WeddingBackground.png')?>" style="object-fit: fill; border-radius: 10px;" uk-img>
+                <img src="<?= base_url('assets/images/BAPajamas.png')?>" style="width: 100%; height: 350px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
                 <div class="uk-overlay uk-dark uk-position-bottom">
                 <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
@@ -87,6 +118,14 @@ use CodeIgniter\Database\BaseUtils;
                 </div>
             </div>
           </li>
+          <li data-color="white">
+            <div class="zoom uk-card uk-background-cover uk-inline" data-src="<?= base_url(relativePath: 'assets/images/Hallway.png')?>" style="object-fit: fill; border-radius: 10px;" uk-img>
+              <img src="<?= base_url('assets/images/BABChattermax.png')?>" style="width: 100%; height: 350px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+              <div class="uk-overlay uk-dark uk-position-bottom">
+              <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+          </li>
           <li data-color="blue">
             <div class="zoom uk-card uk-background-cover uk-inline" data-src="<?= base_url(relativePath: 'assets/images/WeddingBackground.png')?>" style="object-fit: fill; border-radius: 10px;" uk-img>
                 <img src="<?= base_url('assets/images/BATrioSpring.png')?>" style="width: 100%; height: 350px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
@@ -109,6 +148,38 @@ use CodeIgniter\Database\BaseUtils;
                 <div class="uk-overlay uk-dark uk-position-bottom">
                 <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
+            </div>
+          </li>
+          <li data-color="blue">
+            <div class="zoom uk-card uk-background-cover uk-inline" data-src="<?= base_url(relativePath: 'assets/images/WeddingBackground.png')?>" style="object-fit: fill; border-radius: 10px;" uk-img>
+                <img src="<?= base_url('assets/images/BAKeepyUppy.png')?>" style="width: 100%; height: 350px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                <div class="uk-overlay uk-dark uk-position-bottom">
+                <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+          </li>
+          <li data-color="black">
+            <div class="zoom uk-card uk-background-cover uk-inline" data-src="<?= base_url(relativePath: 'assets/images/Kindy.jpg')?>" style="object-fit: fill; border-radius: 10px;" uk-img>
+                <img src="<?= base_url('assets/images/BFseason4.png')?>" style="width: 100%; height: 350px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+                <div class="uk-overlay uk-dark uk-position-bottom">
+                <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+          </li>
+          <li data-color="white">
+            <div class="zoom uk-card uk-background-cover uk-inline" data-src="<?= base_url(relativePath: 'assets/images/Hallway.png')?>" style="object-fit: fill; border-radius: 10px;" uk-img>
+              <img src="<?= base_url('assets/images/BABGrannyJanet.png')?>" style="width: 100%; height: 350px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+              <div class="uk-overlay uk-dark uk-position-bottom">
+              <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+          </li>
+          <li data-color="white">
+            <div class="zoom uk-card uk-background-cover uk-inline" data-src="<?= base_url(relativePath: 'assets/images/Hallway.png')?>" style="object-fit: fill; border-radius: 10px;" uk-img>
+              <img src="<?= base_url('assets/images/BABGrannyRita.png')?>" style="width: 100%; height: 350px; object-fit: cover; border-radius: 10px 10px 0 0;" alt="">
+              <div class="uk-overlay uk-dark uk-position-bottom">
+              <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
             </div>
           </li>
           <li data-color="black">
