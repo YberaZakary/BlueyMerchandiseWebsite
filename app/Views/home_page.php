@@ -84,8 +84,8 @@ use CodeIgniter\Database\BaseUtils;
                       <img src="<?= base_url('assets/images/BABGrannyJanet.png')?>" style="width: 100%; height: 200px; object-fit: contain; border-radius: 10px 10px 0 0;" alt="">
                     </div>
                     <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px; height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
-                    <h3 class="uk-card-title" style="color: white; font-size: 1rem; margin: 0;">Media Top</h3>
-                    <p style="color: white; font-size: 0.875rem; margin: 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <h3 class="uk-card-title" style="color: white; font-size: 1rem; margin: 0;">Granny Janet Plush</h3>
+                    <p style="color: white; font-size: 0.875rem; margin: 0;">wow!</p>
                   </div>
                 </div>
               </div>
@@ -97,8 +97,8 @@ use CodeIgniter\Database\BaseUtils;
                       <img src="<?= base_url('assets/images/BAFrlife.png')?>" style="width: 100%; height: 200px; object-fit: contain; border-radius: 10px 10px 0 0;" alt="">
                     </div>
                     <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px; height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
-                    <h3 class="uk-card-title" style="color: white; font-size: 1rem; margin: 0;">Media Top</h3>
-                    <p style="color: white; font-size: 0.875rem; margin: 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <h3 class="uk-card-title" style="color: white; font-size: 1rem; margin: 0;">For Real Life Adult Hoodie</h3>
+                    <p style="color: white; font-size: 0.875rem; margin: 0;">wow!</p>
                     </div>
                   </div>
                 </div>
@@ -110,8 +110,8 @@ use CodeIgniter\Database\BaseUtils;
                       <img src="<?= base_url('assets/images/BFFamily.png')?>" style="width: 100%; height: 200px; object-fit: contain; border-radius: 10px 10px 0 0;" alt="">
                     </div>
                     <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px; height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
-                      <h3 class="uk-card-title" style="color: white; font-size: 1rem; margin: 0;">Media Top</h3>
-                      <p style="color: white; font-size: 0.875rem; margin: 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                      <h3 class="uk-card-title" style="color: white; font-size: 1rem; margin: 0;">Family Toy Figure</h3>
+                      <p style="color: white; font-size: 0.875rem; margin: 0;">wow!</p>
                     </div>
                   </div>
                 </div>
@@ -126,8 +126,8 @@ use CodeIgniter\Database\BaseUtils;
                       <img src="<?= base_url('assets/images/BABGrannyRita.png')?>" style="width: 100%; height: 200px; object-fit: contain; border-radius: 10px 10px 0 0;" alt="">
                     </div>
                     <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px; height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
-                    <h3 class="uk-card-title" style="color: white; font-size: 1rem; margin: 0;">Media Top</h3>
-                    <p style="color: white; font-size: 0.875rem; margin: 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <h3 class="uk-card-title" style="color: white; font-size: 1rem; margin: 0;">Granny Rita Plush</h3>
+                    <p style="color: white; font-size: 0.875rem; margin: 0;">wow!</p>
                   </div>
                 </div>
               </div>
@@ -139,8 +139,8 @@ use CodeIgniter\Database\BaseUtils;
                       <img src="<?= base_url('assets/images/BAPajamas.png')?>" style="width: 100%; height: 200px; object-fit: contain; border-radius: 10px 10px 0 0;" alt="">
                     </div>
                     <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px; height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
-                    <h3 class="uk-card-title" style="color: white; font-size: 1rem; margin: 0;">Media Top</h3>
-                    <p style="color: white; font-size: 0.875rem; margin: 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <h3 class="uk-card-title" style="color: white; font-size: 1rem; margin: 0;">Bluey and Bingo Kid Pajamas</h3>
+                    <p style="color: white; font-size: 0.875rem; margin: 0;">wow!</p>
                     </div>
                   </div>
                 </div>
@@ -152,8 +152,8 @@ use CodeIgniter\Database\BaseUtils;
                       <img src="<?= base_url('assets/images/BFChefs.png')?>" style="width: 100%; height: 200px; object-fit: contain; border-radius: 10px 10px 0 0;" alt="">
                     </div>
                     <div class="uk-card-body" style="background-color: rgb(117, 85, 154); border-radius: 0 0 10px 10px; height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
-                      <h3 class="uk-card-title" style="color: white; font-size: 1rem; margin: 0;">Media Top</h3>
-                      <p style="color: white; font-size: 0.875rem; margin: 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                      <h3 class="uk-card-title" style="color: white; font-size: 1rem; margin: 0;">Chefs Toy Figure</h3>
+                      <p style="color: white; font-size: 0.875rem; margin: 0;">wow!</p>
                     </div>
                   </div>
                 </div>
