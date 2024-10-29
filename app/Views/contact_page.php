@@ -41,7 +41,23 @@
                     <div class="uk-width-expand">
                         <h4 class="uk-comment-title uk-margin-remove" style = "font-family: DynaPuff; font-size: 34px;">Our Contacts</h4>
                         <div class="uk-comment-body">
-                          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                          <p>hello@ludostudio.com.au<br>daley@ludostudio.com.au</p>
+                        </div>
+                    </div>
+                </div>
+        </header>
+      </article>
+
+      <article class="uk-comment" role="comment" style = "padding: 20px; font-family: DynaPuff;">
+      <header class="uk-comment-header">
+            <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                <div class="uk-width-auto">
+                  <img class="card-img" src="<?= base_url('assets/images/BlueyHouse.png')?>" alt="Card image cap" style="height: 350px; width: 300px; object-fit: cover;" >
+                    </div>
+                    <div class="uk-width-expand">
+                        <h4 class="uk-comment-title uk-margin-remove" style = "font-family: DynaPuff; font-size: 34px;">Address</h4>
+                        <div class="uk-comment-body">
+                          <p>PO Box 1073 Fortitude Valley, QLD, 4006<br>daley@ludostudio.com.au</p>
                         </div>
                     </div>
                 </div>
