@@ -32,12 +32,12 @@
 <section style="background-color: white; max-width: 60%; border-radius: 2%; margin: auto;">
   <section>
       <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push" style="padding: 20px; width: 80%; height: 50%; margin: auto;">
-        <div class="uk-slideshow-items" style="border-radius: 5%;">
+        <div class="uk-slideshow-items">
             <div>
               <img class="card-img" src="<?= base_url('assets/images/RoomBluey.jpg')?>" alt="Card image cap">
                 <div class="uk-position-center uk-position-small uk-text-center">
                   <img class="card-img" src="<?= base_url('assets/images/BingoToy.png')?>" alt="Card image cap" style="width: 10%; height: auto;">
-                  <h2 uk-slideshow-parallax="x: 100,-100" style="background-color: rgba(0, 0, 0, 0.5); padding: 10px; font-family: DynaPuff;">Mission  
+                  <h2 uk-slideshow-parallax="x: 100,-100" style="background-color: rgba(0, 0, 0, 0.5); padding: 10px; font-family: DynaPuff;">Mission
                     <p uk-slideshow-parallax="x: 200,-200" style="padding: 10px; color: white; font-family: Open Sans; font-size: 14px;">To design and produce exceptional Bluey merchandise that reflects the show's values and inspires creativity, imagination, and family bonding.</p>
                   </h2>
                 </div>
